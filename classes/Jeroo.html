@@ -1,0 +1,2424 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content class">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Classes</li>
+  <li>Jeroo</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/bytecode-interpreter/jeroo.ts</code>
+        </p>
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#inFlower">inFlower</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#inJeroo">inJeroo</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#inNet">inNet</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#inWater">inWater</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#acceptFlower">acceptFlower</a>
+                            </li>
+                            <li>
+                                <a href="#getDirection">getDirection</a>
+                            </li>
+                            <li>
+                                <a href="#getId">getId</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#getLocation">getLocation</a>
+                            </li>
+                            <li>
+                                <a href="#getNumFlowers">getNumFlowers</a>
+                            </li>
+                            <li>
+                                <a href="#getX">getX</a>
+                            </li>
+                            <li>
+                                <a href="#getY">getY</a>
+                            </li>
+                            <li>
+                                <a href="#give">give</a>
+                            </li>
+                            <li>
+                                <a href="#hasFlower">hasFlower</a>
+                            </li>
+                            <li>
+                                <a href="#hop">hop</a>
+                            </li>
+                            <li>
+                                <a href="#isFacing">isFacing</a>
+                            </li>
+                            <li>
+                                <a href="#isFlower">isFlower</a>
+                            </li>
+                            <li>
+                                <a href="#isInFlower">isInFlower</a>
+                            </li>
+                            <li>
+                                <a href="#isInJeroo">isInJeroo</a>
+                            </li>
+                            <li>
+                                <a href="#isInNet">isInNet</a>
+                            </li>
+                            <li>
+                                <a href="#isInWater">isInWater</a>
+                            </li>
+                            <li>
+                                <a href="#isJeroo">isJeroo</a>
+                            </li>
+                            <li>
+                                <a href="#isNet">isNet</a>
+                            </li>
+                            <li>
+                                <a href="#isWater">isWater</a>
+                            </li>
+                            <li>
+                                <a href="#pick">pick</a>
+                            </li>
+                            <li>
+                                <a href="#plant">plant</a>
+                            </li>
+                            <li>
+                                <a href="#setInFlower">setInFlower</a>
+                            </li>
+                            <li>
+                                <a href="#setInJeroo">setInJeroo</a>
+                            </li>
+                            <li>
+                                <a href="#toss">toss</a>
+                            </li>
+                            <li>
+                                <a href="#turn">turn</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, x: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, y: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, numFlowers: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, direction: <a href="../undefineds/CardinalDirection.html">CardinalDirection</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:54</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Create a new Jeroo</p>
+</div>
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>id</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>A unique numerical identifier for this jeroo.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>x</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>The column number that this jeroo is at.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>y</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>The row number that this jeroo is at.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>numFlowers</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>The number of flowers this jeroo has.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>direction</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../miscellaneous/enumerations.html#CardinalDirection" target="_self" >CardinalDirection</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>The direction this jeroo is facing.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="inFlower"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            inFlower</b>
+                            <a href="#inFlower"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:53</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="inJeroo"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            inJeroo</b>
+                            <a href="#inJeroo"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:54</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="inNet"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            inNet</b>
+                            <a href="#inNet"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:52</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="inWater"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            inWater</b>
+                            <a href="#inWater"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:51</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="acceptFlower"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            acceptFlower
+                        </b>
+                        <a href="#acceptFlower"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>acceptFlower()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="228"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:228</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDirection"></a>
+                    <span class="name">
+                        <b>
+                            getDirection
+                        </b>
+                        <a href="#getDirection"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getDirection()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="114"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:114</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Get the direction this jeroo is facing.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>this jeroo&#39;s direction.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getId"></a>
+                    <span class="name">
+                        <b>
+                            getId
+                        </b>
+                        <a href="#getId"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getId()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="82"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:82</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Get this jeroo&#39;s id</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>this jeroo&#39;s id</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getLocation"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            getLocation
+                        </b>
+                        <a href="#getLocation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getLocation(direction: <a href="../undefineds/RelativeDirection.html">RelativeDirection</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="293"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:293</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>direction</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#RelativeDirection" target="_self" >RelativeDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/Point.html" target="_self" >Point</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getNumFlowers"></a>
+                    <span class="name">
+                        <b>
+                            getNumFlowers
+                        </b>
+                        <a href="#getNumFlowers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getNumFlowers()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="106"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:106</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Get this jeroo&#39;s number of flowers.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>this jeroo&#39;s number of flowers.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getX"></a>
+                    <span class="name">
+                        <b>
+                            getX
+                        </b>
+                        <a href="#getX"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getX()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="90"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:90</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Get this jeroo&#39;s column number.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>This jeroo&#39;s column number.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getY"></a>
+                    <span class="name">
+                        <b>
+                            getY
+                        </b>
+                        <a href="#getY"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getY()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="98"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:98</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Get this jeroo&#39;s row number.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>this jeroo&#39;s row number.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="give"></a>
+                    <span class="name">
+                        <b>
+                            give
+                        </b>
+                        <a href="#give"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>give(direction: <a href="../undefineds/RelativeDirection.html">RelativeDirection</a>, islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="217"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:217</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Give a flower to a jeroo in a given direction.
+If there is no jeroo in the direction or this jeroo has no flowers, this command does nothing.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>direction</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#RelativeDirection" target="_self" >RelativeDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>The direction to look for a jeroo.</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Island service.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hasFlower"></a>
+                    <span class="name">
+                        <b>
+                            hasFlower
+                        </b>
+                        <a href="#hasFlower"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>hasFlower()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="247"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:247</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Test if this jeroo has flowers.</p>
+</div>
+
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>The result of the test.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hop"></a>
+                    <span class="name">
+                        <b>
+                            hop
+                        </b>
+                        <a href="#hop"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>hop(islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="133"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:133</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Move the jeroo ahead by one space.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Island service.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isFacing"></a>
+                    <span class="name">
+                        <b>
+                            isFacing
+                        </b>
+                        <a href="#isFacing"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isFacing(direction: <a href="../undefineds/CardinalDirection.html">CardinalDirection</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="289"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:289</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>direction</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#CardinalDirection" target="_self" >CardinalDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isFlower"></a>
+                    <span class="name">
+                        <b>
+                            isFlower
+                        </b>
+                        <a href="#isFlower"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isFlower(lookDirection: <a href="../undefineds/RelativeDirection.html">RelativeDirection</a>, islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="284"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:284</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>lookDirection</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#RelativeDirection" target="_self" >RelativeDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isInFlower"></a>
+                    <span class="name">
+                        <b>
+                            isInFlower
+                        </b>
+                        <a href="#isInFlower"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isInFlower()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="318"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:318</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isInJeroo"></a>
+                    <span class="name">
+                        <b>
+                            isInJeroo
+                        </b>
+                        <a href="#isInJeroo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isInJeroo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="326"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:326</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isInNet"></a>
+                    <span class="name">
+                        <b>
+                            isInNet
+                        </b>
+                        <a href="#isInNet"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isInNet()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="314"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:314</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isInWater"></a>
+                    <span class="name">
+                        <b>
+                            isInWater
+                        </b>
+                        <a href="#isInWater"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isInWater()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="310"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:310</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isJeroo"></a>
+                    <span class="name">
+                        <b>
+                            isJeroo
+                        </b>
+                        <a href="#isJeroo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isJeroo(lookDirection: <a href="../undefineds/RelativeDirection.html">RelativeDirection</a>, islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="279"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:279</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Test if there is a jeroo in a given direction.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>lookDirection</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#RelativeDirection" target="_self" >RelativeDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>The direction to look for a jeroo.</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Island service.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>The result of the test.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isNet"></a>
+                    <span class="name">
+                        <b>
+                            isNet
+                        </b>
+                        <a href="#isNet"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isNet(lookDirection: <a href="../undefineds/RelativeDirection.html">RelativeDirection</a>, islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="257"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:257</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Test if there is a net in a given direction.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>lookDirection</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#RelativeDirection" target="_self" >RelativeDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>The direction to look for a net.</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Island service.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>The result of the test.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isWater"></a>
+                    <span class="name">
+                        <b>
+                            isWater
+                        </b>
+                        <a href="#isWater"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>isWater(lookDirection: <a href="../undefineds/RelativeDirection.html">RelativeDirection</a>, islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="268"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:268</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Test if there is water in a given direction.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>lookDirection</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#RelativeDirection" target="_self" >RelativeDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>The direction to look for water.</p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Island service.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        <p>The result of the test.</p>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pick"></a>
+                    <span class="name">
+                        <b>
+                            pick
+                        </b>
+                        <a href="#pick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pick(islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="232"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:232</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="plant"></a>
+                    <span class="name">
+                        <b>
+                            plant
+                        </b>
+                        <a href="#plant"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>plant(islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="203"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:203</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Plant a flower at this jeroo&#39;s current location.
+If this jeroo has no flowers, this does nothing.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Island service.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setInFlower"></a>
+                    <span class="name">
+                        <b>
+                            setInFlower
+                        </b>
+                        <a href="#setInFlower"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setInFlower(val: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank">boolean</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="322"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:322</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>val</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setInJeroo"></a>
+                    <span class="name">
+                        <b>
+                            setInJeroo
+                        </b>
+                        <a href="#setInJeroo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setInJeroo(val: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank">boolean</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="330"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:330</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>val</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toss"></a>
+                    <span class="name">
+                        <b>
+                            toss
+                        </b>
+                        <a href="#toss"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toss(islandService: <a href="../injectables/IslandService.html">IslandService</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="187"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:187</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Toss a flower ahead of this current jeroo.
+If the flower hits a net, that net is destroyed.
+If this jeroo has no flowers, this does nothing.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>islandService</td>
+                                    <td>
+                                                <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>Island service.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="turn"></a>
+                    <span class="name">
+                        <b>
+                            turn
+                        </b>
+                        <a href="#turn"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>turn(turnDir: <a href="../undefineds/RelativeDirection.html">RelativeDirection</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="122"
+                            class="link-to-prism">src/app/bytecode-interpreter/jeroo.ts:122</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Turn this jeroo by a direction.</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Description</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>turnDir</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/enumerations.html#RelativeDirection" target="_self" >RelativeDirection</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                    <td>
+                                        <p>The direction to turn.</p>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { IslandService } from &#x27;../island.service&#x27;;
+import { TileType } from &#x27;../tileType&#x27;;
+import {
+  Point,
+  CardinalDirection,
+  RelativeDirection
+} from &#x27;./direction&#x27;;
+
+const STEP: Point[] &#x3D; [
+  // north
+  {
+    x: 0,
+    y: -1
+  },
+  // east
+  {
+    x: 1,
+    y: 0
+  },
+  // south
+  {
+    x: 0,
+    y: 1
+  },
+  // west
+  {
+    x: -1,
+    y: 0
+  }
+];
+
+export class Jeroo {
+  private inWater &#x3D; false;
+  private inNet &#x3D; false;
+  private inFlower &#x3D; false;
+  private inJeroo &#x3D; false;
+  /**
+   * Create a new Jeroo
+   * @param id A unique numerical identifier for this jeroo.
+   * @param x The column number that this jeroo is at.
+   * @param y The row number that this jeroo is at.
+   * @param numFlowers The number of flowers this jeroo has.
+   * @param direction The direction this jeroo is facing.
+   */
+  constructor(private id: number,
+    private x: number,
+    private y: number,
+    private numFlowers: number,
+    private direction: CardinalDirection
+  ) {
+    if (numFlowers &lt; 0) {
+      throw new Error(&#x27;INSTANTIATION ERROR: flowers &lt; 0&#x27;);
+    }
+
+    if (direction &lt; 0 || direction &gt; 3) {
+      throw new Error(&#x27;INSTANTIATION ERROR: The direction is invalid&#x27;);
+    }
+  }
+
+  /**
+   * Get this jeroo&#x27;s id
+   * @return this jeroo&#x27;s id
+   */
+  getId() {
+    return this.id;
+  }
+
+  /**
+   * Get this jeroo&#x27;s column number.
+   * @return This jeroo&#x27;s column number.
+   */
+  getX() {
+    return this.x;
+  }
+
+  /**
+   * Get this jeroo&#x27;s row number.
+   * @return this jeroo&#x27;s row number.
+   */
+  getY() {
+    return this.y;
+  }
+
+  /**
+   * Get this jeroo&#x27;s number of flowers.
+   * @return this jeroo&#x27;s number of flowers.
+   */
+  getNumFlowers() {
+    return this.numFlowers;
+  }
+
+  /**
+   * Get the direction this jeroo is facing.
+   * @return this jeroo&#x27;s direction.
+   */
+  getDirection() {
+    return this.direction;
+  }
+
+  /**
+   * Turn this jeroo by a direction.
+   * @param turnDir The direction to turn.
+   */
+  turn(turnDir: RelativeDirection) {
+    const turnDirNum &#x3D; turnDir;
+    let myDirNum &#x3D; this.direction;
+    myDirNum &#x3D; (myDirNum + turnDirNum) % 4;
+    this.direction &#x3D; myDirNum;
+  }
+
+  /**
+   * Move the jeroo ahead by one space.
+   * @param islandService Island service.
+   */
+  hop(islandService: IslandService) {
+    const nextLocation &#x3D; this.getLocation(RelativeDirection.Ahead);
+    const nextTile &#x3D; islandService.getTile(nextLocation.x, nextLocation.y);
+    islandService.setJeroo(this.getX(), this.getY(), null);
+    this.x &#x3D; nextLocation.x;
+    this.y &#x3D; nextLocation.y;
+
+    const nextJeroo &#x3D; islandService.getJeroo(nextLocation.x, nextLocation.y);
+    if (nextJeroo) {
+      nextJeroo.setInJeroo(true);
+      this.inJeroo &#x3D; true;
+      this.inWater &#x3D; false;
+      this.inNet &#x3D; false;
+      this.inFlower &#x3D; false;
+      throw new Error(&#x27;LOGIC ERROR: Jeroo has collided with another jeroo&#x27;);
+    }
+    islandService.setJeroo(this.getX(), this.getY(), this);
+    if (nextTile &#x3D;&#x3D;&#x3D; TileType.Flower) {
+      this.inFlower &#x3D; true;
+      this.inWater &#x3D; false;
+      this.inNet &#x3D; false;
+      this.inJeroo &#x3D; false;
+    } else {
+      this.inFlower &#x3D; false;
+    }
+    if (!islandService.isInBounds(nextLocation.x, nextLocation.y)) {
+      this.inWater &#x3D; true;
+      this.inNet &#x3D; false;
+      this.inFlower &#x3D; false;
+      this.inJeroo &#x3D; false;
+      throw new Error(&#x27;LOGIC ERROR: Jeroo is out of bounds&#x27;);
+    }
+    if (nextTile &#x3D;&#x3D;&#x3D; TileType.Water) {
+      this.inWater &#x3D; true;
+      this.inNet &#x3D; false;
+      this.inFlower &#x3D; false;
+      this.inJeroo &#x3D; false;
+      throw new Error(&#x27;LOGIC ERROR: Jeroo is on water&#x27;);
+    }
+    if (nextTile &#x3D;&#x3D;&#x3D; TileType.Net) {
+      this.inNet &#x3D; true;
+      this.inWater &#x3D; false;
+      this.inFlower &#x3D; false;
+      this.inJeroo &#x3D; false;
+      throw new Error(&#x27;LOGIC ERROR: Jeroo is on a net&#x27;);
+    }
+  }
+
+  /**
+   * Toss a flower ahead of this current jeroo.
+   * If the flower hits a net, that net is destroyed.
+   * If this jeroo has no flowers, this does nothing.
+   * @param islandService Island service.
+   */
+  toss(islandService: IslandService) {
+    if (this.numFlowers &gt; 0) {
+      this.numFlowers--;
+      const nextLocation &#x3D; this.getLocation(RelativeDirection.Ahead);
+      const nextTile &#x3D; islandService.getTile(nextLocation.x, nextLocation.y);
+      if (nextTile &#x3D;&#x3D;&#x3D; TileType.Net) {
+        islandService.setDynamicTile(nextLocation.x, nextLocation.y, TileType.Grass);
+      }
+    }
+  }
+
+  /**
+   * Plant a flower at this jeroo&#x27;s current location.
+   * If this jeroo has no flowers, this does nothing.
+   * @param islandService Island service.
+   */
+  plant(islandService: IslandService) {
+    if (this.numFlowers &gt; 0) {
+      this.numFlowers--;
+      islandService.setDynamicTile(this.x, this.y, TileType.Flower);
+    }
+  }
+
+
+  /**
+   * Give a flower to a jeroo in a given direction.
+   * If there is no jeroo in the direction or this jeroo has no flowers, this command does nothing.
+   * @param direction The direction to look for a jeroo.
+   * @param islandService Island service.
+   */
+  give(direction: RelativeDirection, islandService: IslandService) {
+    if (this.numFlowers &gt; 0) {
+      const neighborLocation &#x3D; this.getLocation(direction);
+      const neighborJeroo &#x3D; islandService.getJeroo(neighborLocation.x, neighborLocation.y);
+      if (neighborJeroo !&#x3D;&#x3D; null) {
+        this.numFlowers--;
+        neighborJeroo.acceptFlower();
+      }
+    }
+  }
+
+  private acceptFlower() {
+    this.numFlowers++;
+  }
+
+  pick(islandService: IslandService) {
+    const tile &#x3D; islandService.getTile(this.x, this.y);
+    if (tile &#x3D;&#x3D;&#x3D; TileType.Flower) {
+      this.numFlowers++;
+      this.inFlower &#x3D; false;
+      this.inWater &#x3D; false;
+      this.inNet &#x3D; false;
+      islandService.setDynamicTile(this.x, this.y, TileType.Grass);
+    }
+  }
+
+  /**
+   * Test if this jeroo has flowers.
+   * @return The result of the test.
+   */
+  hasFlower() {
+    return this.numFlowers &gt; 0;
+  }
+
+  /**
+   * Test if there is a net in a given direction.
+   * @param lookDirection The direction to look for a net.
+   * @param islandService Island service.
+   * @return The result of the test.
+   */
+  isNet(lookDirection: RelativeDirection, islandService: IslandService) {
+    const location &#x3D; this.getLocation(lookDirection);
+    return islandService.getTile(location.x, location.y) &#x3D;&#x3D;&#x3D; TileType.Net;
+  }
+
+  /**
+   * Test if there is water in a given direction.
+   * @param lookDirection The direction to look for water.
+   * @param islandService Island service.
+   * @return The result of the test.
+   */
+  isWater(lookDirection: RelativeDirection, islandService: IslandService) {
+    const location &#x3D; this.getLocation(lookDirection);
+    return islandService.getTile(location.x, location.y) &#x3D;&#x3D;&#x3D; TileType.Water;
+  }
+
+  /**
+   * Test if there is a jeroo in a given direction.
+   * @param lookDirection The direction to look for a jeroo.
+   * @param islandService Island service.
+   * @return The result of the test.
+   */
+  isJeroo(lookDirection: RelativeDirection, islandService: IslandService) {
+    const location &#x3D; this.getLocation(lookDirection);
+    return islandService.getJeroo(location.x, location.y) !&#x3D;&#x3D; null;
+  }
+
+  isFlower(lookDirection: RelativeDirection, islandService: IslandService) {
+    const location &#x3D; this.getLocation(lookDirection);
+    return islandService.getTile(location.x, location.y) &#x3D;&#x3D;&#x3D; TileType.Flower;
+  }
+
+  isFacing(direction: CardinalDirection) {
+    return this.direction &#x3D;&#x3D;&#x3D; direction;
+  }
+
+  private getLocation(direction: RelativeDirection): Point {
+    if (direction &#x3D;&#x3D;&#x3D; RelativeDirection.Here) {
+      return {
+        x: this.x,
+        y: this.y
+      };
+    }
+    const lookDirection &#x3D; (direction + this.direction) % 4;
+    const dx &#x3D; STEP[lookDirection].x;
+    const dy &#x3D; STEP[lookDirection].y;
+
+    return {
+      x: this.x + dx,
+      y: this.y + dy
+    };
+  }
+
+  isInWater() {
+    return this.inWater;
+  }
+
+  isInNet() {
+    return this.inNet;
+  }
+
+  isInFlower() {
+    return this.inFlower;
+  }
+
+  setInFlower(val: boolean) {
+    this.inFlower &#x3D; val;
+  }
+
+  isInJeroo() {
+    return this.inJeroo;
+  }
+
+  setInJeroo(val: boolean) {
+    this.inJeroo &#x3D; val;
+  }
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'class';
+            var COMPODOC_CURRENT_PAGE_URL = 'Jeroo.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,856 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>EditorPreferencesComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/dashboard/editor-preferences/editor-preferences.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                    <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-editor-preferences</code></td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./editor-preferences.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#colorThemes">colorThemes</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialogRef">dialogRef</a>
+                            </li>
+                            <li>
+                                <a href="#editor">editor</a>
+                            </li>
+                            <li>
+                                <a href="#editorTextArea">editorTextArea</a>
+                            </li>
+                            <li>
+                                <a href="#form">form</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngAfterViewInit">ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onCloseClick">onCloseClick</a>
+                            </li>
+                            <li>
+                                <a href="#onSaveClick">onSaveClick</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(dialogRef: <a href="../interfaces/EditorPreferences.html">MatDialogRef<EditorPreferencesComponent></a>, fb: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, codeMirrorService: <a href="../injectables/CodemirrorService.html">CodemirrorService</a>, codeService: <a href="../injectables/CodeService.html">CodeService</a>, storage: <a href="../undefineds/Storage.html">WebStorageService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:41</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>dialogRef</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../interfaces/EditorPreferences.html" target="_self" >MatDialogRef&lt;EditorPreferencesComponent&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>fb</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>codeMirrorService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CodemirrorService.html" target="_self" >CodemirrorService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>codeService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CodeService.html" target="_self" >CodeService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>storage</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../miscellaneous/enumerations.html#Storage" target="_self" >WebStorageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <b>
+                            ngAfterViewInit
+                        </b>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="73"
+                            class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:73</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="51"
+                            class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:51</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onCloseClick"></a>
+                    <span class="name">
+                        <b>
+                            onCloseClick
+                        </b>
+                        <a href="#onCloseClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onCloseClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="86"
+                            class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:86</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSaveClick"></a>
+                    <span class="name">
+                        <b>
+                            onSaveClick
+                        </b>
+                        <a href="#onSaveClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSaveClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="90"
+                            class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:90</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="colorThemes"></a>
+                        <span class="name">
+                            <b>
+                            colorThemes</b>
+                            <a href="#colorThemes"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    Themes.Default,
+    Themes.Darcula,
+    Themes.Neat,
+    Themes.Solarized,
+    Themes.TheMattix
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dialogRef"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            dialogRef</b>
+                            <a href="#dialogRef"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/EditorPreferences.html" target="_self" >MatDialogRef&lt;EditorPreferencesComponent&gt;</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:44</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editor"></a>
+                        <span class="name">
+                            <b>
+                            editor</b>
+                            <a href="#editor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>CodeMirror.Editor | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editorTextArea"></a>
+                        <span class="name">
+                            <b>
+                            editorTextArea</b>
+                            <a href="#editorTextArea"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ElementRef | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;editor&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="form"></a>
+                        <span class="name">
+                            <b>
+                            form</b>
+                            <a href="#form"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>FormGroup | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/dashboard/editor-preferences/editor-preferences.component.ts:41</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, Inject } from &#x27;@angular/core&#x27;;
+import { FormBuilder, FormGroup, Validators } from &#x27;@angular/forms&#x27;;
+import { MatDialogRef } from &#x27;@angular/material/dialog&#x27;;
+import { CodeService, Themes, EditorPreferences } from &#x27;src/app/code.service&#x27;;
+import { CodemirrorService } from &#x27;src/app/codemirror/codemirror.service&#x27;;
+import { LOCAL_STORAGE, WebStorageService } from &#x27;angular-webstorage-service&#x27;;
+import { Storage } from &#x27;src/app/storage&#x27;;
+
+@Component({
+  selector: &#x27;app-editor-preferences&#x27;,
+  templateUrl: &#x27;./editor-preferences.component.html&#x27;
+})
+export class EditorPreferencesComponent implements OnInit, AfterViewInit {
+  @ViewChild(&#x27;editor&#x27;, { static: true }) editorTextArea: ElementRef | null &#x3D; null;
+  editor: CodeMirror.Editor | null &#x3D; null;
+  colorThemes &#x3D; [
+    Themes.Default,
+    Themes.Darcula,
+    Themes.Neat,
+    Themes.Solarized,
+    Themes.TheMattix
+  ];
+  form: FormGroup | null &#x3D; null;
+
+  constructor(
+    public dialogRef: MatDialogRef&lt;EditorPreferencesComponent&gt;,
+    private fb: FormBuilder,
+    private codeMirrorService: CodemirrorService,
+    private codeService: CodeService,
+    @Inject(LOCAL_STORAGE) private storage: WebStorageService
+  ) { }
+
+  ngOnInit() {
+    this.form &#x3D; this.fb.group({
+      fontSize: [
+        this.codeService.prefrences.fontSize,
+        [
+          Validators.min(1),
+          Validators.max(30),
+          Validators.pattern(&#x27;[0-9]*&#x27;),
+          Validators.required
+        ]
+      ],
+      colorTheme: [this.codeService.prefrences.colorTheme]
+    });
+
+    this.form.valueChanges.subscribe((val: EditorPreferences) &#x3D;&gt; {
+      if (this.editor &amp;&amp; this.form &amp;&amp; this.form.valid) {
+        this.editor.getWrapperElement().style.fontSize &#x3D; &#x60;${val.fontSize}px&#x60;;
+        this.editor.setOption(&#x27;theme&#x27;, val.colorTheme);
+      }
+    });
+  }
+
+  ngAfterViewInit() {
+    if (this.editorTextArea) {
+      const editorTextArea &#x3D; this.editorTextArea.nativeElement;
+      const codemirror &#x3D; this.codeMirrorService.getCodemirror();
+      this.editor &#x3D; codemirror.fromTextArea(editorTextArea, {
+        theme: this.codeService.prefrences.colorTheme,
+        lineNumbers: true
+      });
+      this.editor.getWrapperElement().style.fontSize &#x3D; &#x60;${this.codeService.prefrences.fontSize}px&#x60;;
+      this.editor.setSize(600, 200);
+    }
+  }
+
+  onCloseClick() {
+    this.dialogRef.close();
+  }
+
+  onSaveClick() {
+    if (this.form &amp;&amp; this.form.valid) {
+      this.codeService.prefrences &#x3D; this.form.value;
+      this.storage.set(Storage.Preferences, this.form.value);
+    }
+    this.dialogRef.close();
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+--&gt;
+
+&lt;h1 mat-dialog-title&gt;Editor Preferences&lt;/h1&gt;
+&lt;mat-dialog-content [formGroup]&#x3D;&quot;form&quot;&gt;
+  &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutGap&#x3D;&quot;10px&quot;&gt;
+    &lt;div&gt;
+      &lt;mat-form-field&gt;
+        &lt;input type&#x3D;&quot;number&quot; matInput placeholder&#x3D;&quot;Font Size&quot; formControlName&#x3D;&quot;fontSize&quot;&gt;
+        &lt;mat-error&gt;
+          Value must be between 1 and 30
+        &lt;/mat-error&gt;
+      &lt;/mat-form-field&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;mat-form-field&gt;
+        &lt;mat-label&gt;Color Theme&lt;/mat-label&gt;
+        &lt;mat-select formControlName&#x3D;&quot;colorTheme&quot;&gt;
+          &lt;mat-option *ngFor&#x3D;&quot;let theme of colorThemes;&quot; [value]&#x3D;&quot;theme&quot;&gt;
+            {{theme | titlecase}}
+          &lt;/mat-option&gt;
+        &lt;/mat-select&gt;
+      &lt;/mat-form-field&gt;
+    &lt;/div&gt;
+    &lt;mat-divider&gt;&lt;/mat-divider&gt;
+    &lt;textarea #editor&gt;Jeroo is a programming learning tool
+for teachers and students!
+
+abcdefghijklmnopqrstuvwxyz 0123456789 (){}[]
+ABCDEFGHIJKLMNOPQRSTUVWXYZ +-*/&#x3D; .,;:!? #&amp;$%@|^&lt;/textarea&gt;
+  &lt;/div&gt;
+&lt;/mat-dialog-content&gt;
+&lt;mat-dialog-actions&gt;
+  &lt;button mat-raised-button color&#x3D;&quot;primary&quot; (click)&#x3D;&quot;onCloseClick()&quot;&gt;Close&lt;/button&gt;
+  &lt;button type&#x3D;&quot;submit&quot; mat-raised-button [disabled]&#x3D;&quot;!form || !form.valid&quot; (click)&#x3D;&quot;onSaveClick()&quot;&gt;Save&lt;/button&gt;
+&lt;/mat-dialog-actions&gt;
+</code></pre>
+    </div>
+
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--Jeroo is a programming language learning tool for students and teachers.Copyright (C) <2019>  <Benjamin Konz>This program is free software: you can redistribute it and/or modifyit under the terms of the GNU Affero General Public License aspublished by the Free Software Foundation, either version 3 of theLicense, or (at your option) any later version.This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See theGNU Affero General Public License for more details.You should have received a copy of the GNU Affero General Public Licensealong with this program.  If not, see <http://www.gnu.org/licenses/>.--><h1 mat-dialog-title>Editor Preferences</h1><mat-dialog-content [formGroup]="form">  <div fxLayout="column" fxLayoutGap="10px">    <div>      <mat-form-field>        <input type="number" matInput placeholder="Font Size" formControlName="fontSize">        <mat-error>          Value must be between 1 and 30        </mat-error>      </mat-form-field>    </div>    <div>      <mat-form-field>        <mat-label>Color Theme</mat-label>        <mat-select formControlName="colorTheme">          <mat-option *ngFor="let theme of colorThemes;" [value]="theme">            {{theme | titlecase}}          </mat-option>        </mat-select>      </mat-form-field>    </div>    <mat-divider></mat-divider>    <textarea #editor>Jeroo is a programming learning toolfor teachers and students!abcdefghijklmnopqrstuvwxyz 0123456789 (){}[]ABCDEFGHIJKLMNOPQRSTUVWXYZ +-*/= .,;:!? #&$%@|^</textarea>  </div></mat-dialog-content><mat-dialog-actions>  <button mat-raised-button color="primary" (click)="onCloseClick()">Close</button>  <button type="submit" mat-raised-button [disabled]="!form || !form.valid" (click)="onSaveClick()">Save</button></mat-dialog-actions></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CacheDialogComponent', 'selector': 'app-cache-dialog'},{'name': 'ChnageIslandSizeDialogComponent', 'selector': 'app-change-island-dialog-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CompilationErrorMessageComponent', 'selector': 'app-compilation-error-message'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'EditorComponent', 'selector': 'app-editor'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorTabsComponent', 'selector': 'app-editor-tabs'},{'name': 'HelpActionComponent', 'selector': 'app-help-action'},{'name': 'HelpBooleanComponent', 'selector': 'app-help-boolean'},{'name': 'HelpCompassComponent', 'selector': 'app-help-compass'},{'name': 'HelpConditionJavaComponent', 'selector': 'app-help-condition-java'},{'name': 'HelpConditionPythonComponent', 'selector': 'app-help-condition-python'},{'name': 'HelpConditionVBComponent', 'selector': 'app-help-condition-vb'},{'name': 'HelpControlStructJavaComponent', 'selector': 'app-help-control-struct-java'},{'name': 'HelpControlStructPythonComponent', 'selector': 'app-help-control-struct-python'},{'name': 'HelpControlStructVBComponent', 'selector': 'app-help-control-struct-vb'},{'name': 'HelpDirectionsComponent', 'selector': 'app-help-directions'},{'name': 'HelpGeneralJavaComponent', 'selector': 'app-help-general-java'},{'name': 'HelpGeneralPythonComponent', 'selector': 'app-help-general-python'},{'name': 'HelpGeneralVbComponent', 'selector': 'app-help-general-vb'},{'name': 'HelpInstantiationJavaComponent', 'selector': 'app-help-instantiation-java'},{'name': 'HelpInstantiationPythonComponent', 'selector': 'app-help-instantiation-python'},{'name': 'HelpInstantiationVbComponent', 'selector': 'app-help-instantiation-vb'},{'name': 'HelpMethodJavaComponent', 'selector': 'app-help-method-java'},{'name': 'HelpMethodPythonComponent', 'selector': 'app-help-method-python'},{'name': 'HelpMethodVbComponent', 'selector': 'app-help-method-vb'},{'name': 'HelpRelativeComponent', 'selector': 'app-help-relative'},{'name': 'HelpTutorialJavaComponent', 'selector': 'app-help-tutorial-java'},{'name': 'HelpTutorialPythonComponent', 'selector': 'app-help-tutorial-python'},{'name': 'HelpTutorialVbComponent', 'selector': 'app-help-tutorial-vb'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'JavaHelpComponent', 'selector': 'app-java-help'},{'name': 'JerooIslandComponent', 'selector': 'app-jeroo-island'},{'name': 'JerooStatusComponent', 'selector': 'app-jeroo-status'},{'name': 'LevelEditorComponent', 'selector': 'app-dashboard'},{'name': 'LoggingMessageComponent', 'selector': 'app-logging-message'},{'name': 'MessagesComponent', 'selector': 'app-messages'},{'name': 'PrintCodeComponent', 'selector': 'app-print-code'},{'name': 'PrintCodeDialogComponent', 'selector': 'app-print-code-dialog'},{'name': 'PrintIslandComponent', 'selector': 'app-print-island'},{'name': 'PrintLayoutComponent', 'selector': 'app-print-layout'},{'name': 'PythonHelpComponent', 'selector': 'app-python-help'},{'name': 'RuntimeErrorMessageComponent', 'selector': 'app-runtime-error-message'},{'name': 'VBHelpComponent', 'selector': 'app-vbhelp'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'EditorPreferencesComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'EditorPreferencesComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

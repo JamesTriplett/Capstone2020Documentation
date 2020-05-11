@@ -1,0 +1,763 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>IslandSaveDialogComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-island-save-dialog</code></td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./island-save-dialog.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialogRef">dialogRef</a>
+                            </li>
+                            <li>
+                                <a href="#fileSaver">fileSaver</a>
+                            </li>
+                            <li>
+                                <a href="#form">form</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#close">close</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#save">save</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#saveBlob">saveBlob</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fb: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, islandService: <a href="../injectables/IslandService.html">IslandService</a>, fileSaveService: <a href="../injectables/FileSaveService.html">FileSaveService</a>, dialogRef: MatDialogRef<IslandSaveDialogComponent>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fb</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>islandService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>fileSaveService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/FileSaveService.html" target="_self" >FileSaveService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialogRef</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialogRef&lt;IslandSaveDialogComponent&gt;</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="close"></a>
+                    <span class="name">
+                        <b>
+                            close
+                        </b>
+                        <a href="#close"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>close()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="64"
+                            class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:64</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="40"
+                            class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:40</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="save"></a>
+                    <span class="name">
+                        <b>
+                            save
+                        </b>
+                        <a href="#save"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>save()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="46"
+                            class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:46</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="saveBlob"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            saveBlob
+                        </b>
+                        <a href="#saveBlob"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>saveBlob(blob: Blob, fileName: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="57"
+                            class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:57</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>blob</td>
+                                    <td>
+                                            <code>Blob</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>fileName</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dialogRef"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            dialogRef</b>
+                            <a href="#dialogRef"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>MatDialogRef&lt;IslandSaveDialogComponent&gt;</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fileSaver"></a>
+                        <span class="name">
+                            <b>
+                            fileSaver</b>
+                            <a href="#fileSaver"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ElementRef | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;fileSaver&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="form"></a>
+                        <span class="name">
+                            <b>
+                            form</b>
+                            <a href="#form"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>FormGroup | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/leveleditor/island-save-dialog/island-save-dialog.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, ViewChild, ElementRef, OnInit } from &#x27;@angular/core&#x27;;
+import { MatDialogRef } from &#x27;@angular/material/dialog&#x27;;
+import { FormGroup, FormBuilder } from &#x27;@angular/forms&#x27;;
+import { IslandService } from &#x27;src/app/island.service&#x27;;
+import { FileSaveService } from &#x27;../file-save.service&#x27;;
+
+@Component({
+  selector: &#x27;app-island-save-dialog&#x27;,
+  templateUrl: &#x27;./island-save-dialog.component.html&#x27;
+})
+export class IslandSaveDialogComponent implements OnInit {
+  @ViewChild(&#x27;fileSaver&#x27;, { static: true }) fileSaver: ElementRef | null &#x3D; null;
+  form: FormGroup | null &#x3D; null;
+
+  constructor(
+    private fb: FormBuilder,
+    private islandService: IslandService,
+    private fileSaveService: FileSaveService,
+    public dialogRef: MatDialogRef&lt;IslandSaveDialogComponent&gt;
+  ) { }
+
+  ngOnInit() {
+    this.form &#x3D; this.fb.group({
+      name: []
+    });
+  }
+
+  save() {
+    if (this.form) {
+      const islandString &#x3D; this.islandService.toString();
+      const blob &#x3D; new Blob([islandString], {
+        type: &#x27;text/plain&#x27;
+      });
+      this.saveBlob(blob, &#x60;${this.form.value.name}.jev&#x60;);
+      this.dialogRef.close();
+    }
+  }
+
+  private saveBlob(blob: Blob, fileName: string) {
+    if (this.fileSaver) {
+      const fileSaver &#x3D; this.fileSaver.nativeElement as HTMLAnchorElement;
+      this.fileSaveService.saveBlob(fileSaver, blob, fileName);
+    }
+  }
+
+  close() {
+    this.dialogRef.close();
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+--&gt;
+
+&lt;h1 mat-dialog-title&gt;Save Island&lt;/h1&gt;
+&lt;mat-dialog-content [formGroup]&#x3D;&quot;form&quot;&gt;
+  &lt;mat-form-field&gt;
+    &lt;mat-label&gt;File Name&lt;/mat-label&gt;
+    &lt;input matInput placeholder&#x3D;&quot;name&quot; formControlName&#x3D;&quot;name&quot;&gt;
+    &lt;span matSuffix&gt;.jev&lt;/span&gt;
+  &lt;/mat-form-field&gt;
+&lt;/mat-dialog-content&gt;
+&lt;mat-dialog-actions&gt;
+  &lt;button mat-raised-button (click)&#x3D;&quot;close()&quot;&gt;Close&lt;/button&gt;
+  &lt;button mat-raised-button color&#x3D;&quot;primary&quot; type&#x3D;&quot;submit&quot; (click)&#x3D;&quot;save()&quot;&gt;Save&lt;/button&gt;
+&lt;/mat-dialog-actions&gt;
+&lt;a #fileSaver class&#x3D;&quot;invisible&quot;&gt;&lt;/a&gt;
+</code></pre>
+    </div>
+
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--Jeroo is a programming language learning tool for students and teachers.Copyright (C) <2019>  <Benjamin Konz>This program is free software: you can redistribute it and/or modifyit under the terms of the GNU Affero General Public License aspublished by the Free Software Foundation, either version 3 of theLicense, or (at your option) any later version.This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See theGNU Affero General Public License for more details.You should have received a copy of the GNU Affero General Public Licensealong with this program.  If not, see <http://www.gnu.org/licenses/>.--><h1 mat-dialog-title>Save Island</h1><mat-dialog-content [formGroup]="form">  <mat-form-field>    <mat-label>File Name</mat-label>    <input matInput placeholder="name" formControlName="name">    <span matSuffix>.jev</span>  </mat-form-field></mat-dialog-content><mat-dialog-actions>  <button mat-raised-button (click)="close()">Close</button>  <button mat-raised-button color="primary" type="submit" (click)="save()">Save</button></mat-dialog-actions><a #fileSaver class="invisible"></a></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CacheDialogComponent', 'selector': 'app-cache-dialog'},{'name': 'ChnageIslandSizeDialogComponent', 'selector': 'app-change-island-dialog-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CompilationErrorMessageComponent', 'selector': 'app-compilation-error-message'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'EditorComponent', 'selector': 'app-editor'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorTabsComponent', 'selector': 'app-editor-tabs'},{'name': 'HelpActionComponent', 'selector': 'app-help-action'},{'name': 'HelpBooleanComponent', 'selector': 'app-help-boolean'},{'name': 'HelpCompassComponent', 'selector': 'app-help-compass'},{'name': 'HelpConditionJavaComponent', 'selector': 'app-help-condition-java'},{'name': 'HelpConditionPythonComponent', 'selector': 'app-help-condition-python'},{'name': 'HelpConditionVBComponent', 'selector': 'app-help-condition-vb'},{'name': 'HelpControlStructJavaComponent', 'selector': 'app-help-control-struct-java'},{'name': 'HelpControlStructPythonComponent', 'selector': 'app-help-control-struct-python'},{'name': 'HelpControlStructVBComponent', 'selector': 'app-help-control-struct-vb'},{'name': 'HelpDirectionsComponent', 'selector': 'app-help-directions'},{'name': 'HelpGeneralJavaComponent', 'selector': 'app-help-general-java'},{'name': 'HelpGeneralPythonComponent', 'selector': 'app-help-general-python'},{'name': 'HelpGeneralVbComponent', 'selector': 'app-help-general-vb'},{'name': 'HelpInstantiationJavaComponent', 'selector': 'app-help-instantiation-java'},{'name': 'HelpInstantiationPythonComponent', 'selector': 'app-help-instantiation-python'},{'name': 'HelpInstantiationVbComponent', 'selector': 'app-help-instantiation-vb'},{'name': 'HelpMethodJavaComponent', 'selector': 'app-help-method-java'},{'name': 'HelpMethodPythonComponent', 'selector': 'app-help-method-python'},{'name': 'HelpMethodVbComponent', 'selector': 'app-help-method-vb'},{'name': 'HelpRelativeComponent', 'selector': 'app-help-relative'},{'name': 'HelpTutorialJavaComponent', 'selector': 'app-help-tutorial-java'},{'name': 'HelpTutorialPythonComponent', 'selector': 'app-help-tutorial-python'},{'name': 'HelpTutorialVbComponent', 'selector': 'app-help-tutorial-vb'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'JavaHelpComponent', 'selector': 'app-java-help'},{'name': 'JerooIslandComponent', 'selector': 'app-jeroo-island'},{'name': 'JerooStatusComponent', 'selector': 'app-jeroo-status'},{'name': 'LevelEditorComponent', 'selector': 'app-dashboard'},{'name': 'LoggingMessageComponent', 'selector': 'app-logging-message'},{'name': 'MessagesComponent', 'selector': 'app-messages'},{'name': 'PrintCodeComponent', 'selector': 'app-print-code'},{'name': 'PrintCodeDialogComponent', 'selector': 'app-print-code-dialog'},{'name': 'PrintIslandComponent', 'selector': 'app-print-island'},{'name': 'PrintLayoutComponent', 'selector': 'app-print-layout'},{'name': 'PythonHelpComponent', 'selector': 'app-python-help'},{'name': 'RuntimeErrorMessageComponent', 'selector': 'app-runtime-error-message'},{'name': 'VBHelpComponent', 'selector': 'app-vbhelp'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'IslandSaveDialogComponent-1'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'IslandSaveDialogComponent-1.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

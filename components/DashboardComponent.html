@@ -1,0 +1,3378 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>DashboardComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/dashboard/dashboard.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-dashboard</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./dashboard.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./dashboard.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#codeFileInput">codeFileInput</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialog">dialog</a>
+                            </li>
+                            <li>
+                                <a href="#fileSaver">fileSaver</a>
+                            </li>
+                            <li>
+                                <a href="#islandFileInput">islandFileInput</a>
+                            </li>
+                            <li>
+                                <a href="#jerooEditor">jerooEditor</a>
+                            </li>
+                            <li>
+                                <a href="#jerooEditorState">jerooEditorState</a>
+                            </li>
+                            <li>
+                                <a href="#jerooIsland">jerooIsland</a>
+                            </li>
+                            <li>
+                                <a href="#runtimeSpeed">runtimeSpeed</a>
+                            </li>
+                            <li>
+                                <a href="#speedIndex">speedIndex</a>
+                            </li>
+                            <li>
+                                <a href="#speedRadios">speedRadios</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#speeds">speeds</a>
+                            </li>
+                            <li>
+                                <a href="#tileTypeIndex">tileTypeIndex</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#tileTypes">tileTypes</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#changeIslandSize">changeIslandSize</a>
+                            </li>
+                            <li>
+                                <a href="#clearIsland">clearIsland</a>
+                            </li>
+                            <li>
+                                <a href="#codeFileSelected">codeFileSelected</a>
+                            </li>
+                            <li>
+                                <a href="#editorEditingEnabled">editorEditingEnabled</a>
+                            </li>
+                            <li>
+                                <a href="#getHelpUrl">getHelpUrl</a>
+                            </li>
+                            <li>
+                                <a href="#getTutorialUrl">getTutorialUrl</a>
+                            </li>
+                            <li>
+                                <a href="#islandEditingEnabled">islandEditingEnabled</a>
+                            </li>
+                            <li>
+                                <a href="#islandFileSelected">islandFileSelected</a>
+                            </li>
+                            <li>
+                                <a href="#newCodeFile">newCodeFile</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit">ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#onEditorPreferenceClick">onEditorPreferenceClick</a>
+                            </li>
+                            <li>
+                                <a href="#onFormatClick">onFormatClick</a>
+                            </li>
+                            <li>
+                                <a href="#onIndentSelectionClick">onIndentSelectionClick</a>
+                            </li>
+                            <li>
+                                <a href="#onPauseClick">onPauseClick</a>
+                            </li>
+                            <li>
+                                <a href="#onRedoClick">onRedoClick</a>
+                            </li>
+                            <li>
+                                <a href="#onResetClick">onResetClick</a>
+                            </li>
+                            <li>
+                                <a href="#onRunContiniousClick">onRunContiniousClick</a>
+                            </li>
+                            <li>
+                                <a href="#onRunStepwiseClick">onRunStepwiseClick</a>
+                            </li>
+                            <li>
+                                <a href="#onSpeedIndexChange">onSpeedIndexChange</a>
+                            </li>
+                            <li>
+                                <a href="#onSpeedRadioClick">onSpeedRadioClick</a>
+                            </li>
+                            <li>
+                                <a href="#onStopClick">onStopClick</a>
+                            </li>
+                            <li>
+                                <a href="#onTileTypeRadioClick">onTileTypeRadioClick</a>
+                            </li>
+                            <li>
+                                <a href="#onToggleCommentLines">onToggleCommentLines</a>
+                            </li>
+                            <li>
+                                <a href="#onUndoClick">onUndoClick</a>
+                            </li>
+                            <li>
+                                <a href="#onUnindentSelectionClick">onUnindentSelectionClick</a>
+                            </li>
+                            <li>
+                                <a href="#openAboutJeroo">openAboutJeroo</a>
+                            </li>
+                            <li>
+                                <a href="#openAwards">openAwards</a>
+                            </li>
+                            <li>
+                                <a href="#openCodeFile">openCodeFile</a>
+                            </li>
+                            <li>
+                                <a href="#openCopyright">openCopyright</a>
+                            </li>
+                            <li>
+                                <a href="#openHistory">openHistory</a>
+                            </li>
+                            <li>
+                                <a href="#openIslandFile">openIslandFile</a>
+                            </li>
+                            <li>
+                                <a href="#pauseBtnDisabled">pauseBtnDisabled</a>
+                            </li>
+                            <li>
+                                <a href="#printCode">printCode</a>
+                            </li>
+                            <li>
+                                <a href="#printIsland">printIsland</a>
+                            </li>
+                            <li>
+                                <a href="#resetBtnDisabled">resetBtnDisabled</a>
+                            </li>
+                            <li>
+                                <a href="#runBtnDisabled">runBtnDisabled</a>
+                            </li>
+                            <li>
+                                <a href="#saveCode">saveCode</a>
+                            </li>
+                            <li>
+                                <a href="#saveIsland">saveIsland</a>
+                            </li>
+                            <li>
+                                <a href="#stopBtnDisabled">stopBtnDisabled</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(islandService: <a href="../injectables/IslandService.html">IslandService</a>, hotkeysService: HotkeysService, messageService: <a href="../injectables/MessageService.html">MessageService</a>, printService: <a href="../injectables/PrintService.html">PrintService</a>, selectedTileTypeService: <a href="../injectables/SelectedTileTypeService.html">SelectedTileTypeService</a>, dialog: MatDialog)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">src/app/dashboard/dashboard.component.ts:71</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>islandService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>hotkeysService</td>
+                                                  
+                                                        <td>
+                                                                    <code>HotkeysService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>messageService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MessageService.html" target="_self" >MessageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>printService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/PrintService.html" target="_self" >PrintService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedTileTypeService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SelectedTileTypeService.html" target="_self" >SelectedTileTypeService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="changeIslandSize"></a>
+                    <span class="name">
+                        <b>
+                            changeIslandSize
+                        </b>
+                        <a href="#changeIslandSize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>changeIslandSize()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="345"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:345</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearIsland"></a>
+                    <span class="name">
+                        <b>
+                            clearIsland
+                        </b>
+                        <a href="#clearIsland"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clearIsland()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="309"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:309</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="codeFileSelected"></a>
+                    <span class="name">
+                        <b>
+                            codeFileSelected
+                        </b>
+                        <a href="#codeFileSelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>codeFileSelected(file: File)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="186"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:186</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>file</td>
+                                    <td>
+                                            <code>File</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editorEditingEnabled"></a>
+                    <span class="name">
+                        <b>
+                            editorEditingEnabled
+                        </b>
+                        <a href="#editorEditingEnabled"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>editorEditingEnabled()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="385"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:385</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getHelpUrl"></a>
+                    <span class="name">
+                        <b>
+                            getHelpUrl
+                        </b>
+                        <a href="#getHelpUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getHelpUrl()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="351"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:351</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getTutorialUrl"></a>
+                    <span class="name">
+                        <b>
+                            getTutorialUrl
+                        </b>
+                        <a href="#getTutorialUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getTutorialUrl()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="357"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:357</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="islandEditingEnabled"></a>
+                    <span class="name">
+                        <b>
+                            islandEditingEnabled
+                        </b>
+                        <a href="#islandEditingEnabled"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>islandEditingEnabled()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="381"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:381</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="islandFileSelected"></a>
+                    <span class="name">
+                        <b>
+                            islandFileSelected
+                        </b>
+                        <a href="#islandFileSelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>islandFileSelected(file: File)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="322"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:322</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>file</td>
+                                    <td>
+                                            <code>File</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="newCodeFile"></a>
+                    <span class="name">
+                        <b>
+                            newCodeFile
+                        </b>
+                        <a href="#newCodeFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>newCodeFile()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="173"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:173</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <b>
+                            ngAfterViewInit
+                        </b>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="139"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:139</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onEditorPreferenceClick"></a>
+                    <span class="name">
+                        <b>
+                            onEditorPreferenceClick
+                        </b>
+                        <a href="#onEditorPreferenceClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onEditorPreferenceClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="254"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:254</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onFormatClick"></a>
+                    <span class="name">
+                        <b>
+                            onFormatClick
+                        </b>
+                        <a href="#onFormatClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onFormatClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="248"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:248</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onIndentSelectionClick"></a>
+                    <span class="name">
+                        <b>
+                            onIndentSelectionClick
+                        </b>
+                        <a href="#onIndentSelectionClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onIndentSelectionClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="236"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:236</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onPauseClick"></a>
+                    <span class="name">
+                        <b>
+                            onPauseClick
+                        </b>
+                        <a href="#onPauseClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onPauseClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="283"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:283</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onRedoClick"></a>
+                    <span class="name">
+                        <b>
+                            onRedoClick
+                        </b>
+                        <a href="#onRedoClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onRedoClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="224"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:224</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onResetClick"></a>
+                    <span class="name">
+                        <b>
+                            onResetClick
+                        </b>
+                        <a href="#onResetClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onResetClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="276"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:276</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onRunContiniousClick"></a>
+                    <span class="name">
+                        <b>
+                            onRunContiniousClick
+                        </b>
+                        <a href="#onRunContiniousClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onRunContiniousClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="267"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:267</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onRunStepwiseClick"></a>
+                    <span class="name">
+                        <b>
+                            onRunStepwiseClick
+                        </b>
+                        <a href="#onRunStepwiseClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onRunStepwiseClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="258"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:258</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSpeedIndexChange"></a>
+                    <span class="name">
+                        <b>
+                            onSpeedIndexChange
+                        </b>
+                        <a href="#onSpeedIndexChange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSpeedIndexChange()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="305"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:305</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onSpeedRadioClick"></a>
+                    <span class="name">
+                        <b>
+                            onSpeedRadioClick
+                        </b>
+                        <a href="#onSpeedRadioClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onSpeedRadioClick(speedValue: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="300"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:300</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>speedValue</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onStopClick"></a>
+                    <span class="name">
+                        <b>
+                            onStopClick
+                        </b>
+                        <a href="#onStopClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onStopClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="291"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:291</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onTileTypeRadioClick"></a>
+                    <span class="name">
+                        <b>
+                            onTileTypeRadioClick
+                        </b>
+                        <a href="#onTileTypeRadioClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onTileTypeRadioClick(tileTypeIndex: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="405"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:405</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>tileTypeIndex</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onToggleCommentLines"></a>
+                    <span class="name">
+                        <b>
+                            onToggleCommentLines
+                        </b>
+                        <a href="#onToggleCommentLines"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onToggleCommentLines()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="230"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:230</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onUndoClick"></a>
+                    <span class="name">
+                        <b>
+                            onUndoClick
+                        </b>
+                        <a href="#onUndoClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onUndoClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="218"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:218</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onUnindentSelectionClick"></a>
+                    <span class="name">
+                        <b>
+                            onUnindentSelectionClick
+                        </b>
+                        <a href="#onUnindentSelectionClick"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onUnindentSelectionClick()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="242"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:242</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openAboutJeroo"></a>
+                    <span class="name">
+                        <b>
+                            openAboutJeroo
+                        </b>
+                        <a href="#openAboutJeroo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openAboutJeroo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="389"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:389</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openAwards"></a>
+                    <span class="name">
+                        <b>
+                            openAwards
+                        </b>
+                        <a href="#openAwards"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openAwards()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="393"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:393</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openCodeFile"></a>
+                    <span class="name">
+                        <b>
+                            openCodeFile
+                        </b>
+                        <a href="#openCodeFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openCodeFile()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="179"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:179</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openCopyright"></a>
+                    <span class="name">
+                        <b>
+                            openCopyright
+                        </b>
+                        <a href="#openCopyright"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openCopyright()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="401"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:401</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openHistory"></a>
+                    <span class="name">
+                        <b>
+                            openHistory
+                        </b>
+                        <a href="#openHistory"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openHistory()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="397"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:397</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openIslandFile"></a>
+                    <span class="name">
+                        <b>
+                            openIslandFile
+                        </b>
+                        <a href="#openIslandFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openIslandFile()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="315"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:315</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pauseBtnDisabled"></a>
+                    <span class="name">
+                        <b>
+                            pauseBtnDisabled
+                        </b>
+                        <a href="#pauseBtnDisabled"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pauseBtnDisabled()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="373"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:373</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="printCode"></a>
+                    <span class="name">
+                        <b>
+                            printCode
+                        </b>
+                        <a href="#printCode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>printCode()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="209"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:209</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="printIsland"></a>
+                    <span class="name">
+                        <b>
+                            printIsland
+                        </b>
+                        <a href="#printIsland"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>printIsland()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="341"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:341</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resetBtnDisabled"></a>
+                    <span class="name">
+                        <b>
+                            resetBtnDisabled
+                        </b>
+                        <a href="#resetBtnDisabled"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>resetBtnDisabled()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="363"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:363</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="runBtnDisabled"></a>
+                    <span class="name">
+                        <b>
+                            runBtnDisabled
+                        </b>
+                        <a href="#runBtnDisabled"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>runBtnDisabled()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="369"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:369</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="saveCode"></a>
+                    <span class="name">
+                        <b>
+                            saveCode
+                        </b>
+                        <a href="#saveCode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>saveCode()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="199"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:199</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="saveIsland"></a>
+                    <span class="name">
+                        <b>
+                            saveIsland
+                        </b>
+                        <a href="#saveIsland"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>saveIsland()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="337"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:337</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stopBtnDisabled"></a>
+                    <span class="name">
+                        <b>
+                            stopBtnDisabled
+                        </b>
+                        <a href="#stopBtnDisabled"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>stopBtnDisabled()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="377"
+                            class="link-to-prism">src/app/dashboard/dashboard.component.ts:377</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="codeFileInput"></a>
+                        <span class="name">
+                            <b>
+                            codeFileInput</b>
+                            <a href="#codeFileInput"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ElementRef | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;codeFileInput&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/dashboard/dashboard.component.ts:45</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dialog"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            dialog</b>
+                            <a href="#dialog"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>MatDialog</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="79" class="link-to-prism">src/app/dashboard/dashboard.component.ts:79</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fileSaver"></a>
+                        <span class="name">
+                            <b>
+                            fileSaver</b>
+                            <a href="#fileSaver"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ElementRef | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;fileSaver&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/dashboard/dashboard.component.ts:48</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="islandFileInput"></a>
+                        <span class="name">
+                            <b>
+                            islandFileInput</b>
+                            <a href="#islandFileInput"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ElementRef | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;islandFileInput&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/dashboard/dashboard.component.ts:44</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="jerooEditor"></a>
+                        <span class="name">
+                            <b>
+                            jerooEditor</b>
+                            <a href="#jerooEditor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../components/EditorTabsComponent.html" target="_self" >EditorTabsComponent | null</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;jerooEditor&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/dashboard/dashboard.component.ts:47</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="jerooEditorState"></a>
+                        <span class="name">
+                            <b>
+                            jerooEditorState</b>
+                            <a href="#jerooEditorState"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/EditorState.html" target="_self" >EditorState</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    reset: true,
+    executing: false,
+    paused: false,
+    stopped: false
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/dashboard/dashboard.component.ts:66</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="jerooIsland"></a>
+                        <span class="name">
+                            <b>
+                            jerooIsland</b>
+                            <a href="#jerooIsland"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/Jeroo.html" target="_self" >JerooIslandComponent | null</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;jerooIsland&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/dashboard/dashboard.component.ts:46</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="runtimeSpeed"></a>
+                        <span class="name">
+                            <b>
+                            runtimeSpeed</b>
+                            <a href="#runtimeSpeed"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>this.speeds[this.speedIndex - 1]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/dashboard/dashboard.component.ts:52</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="speedIndex"></a>
+                        <span class="name">
+                            <b>
+                            speedIndex</b>
+                            <a href="#speedIndex"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>3</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/dashboard/dashboard.component.ts:51</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="speedRadios"></a>
+                        <span class="name">
+                            <b>
+                            speedRadios</b>
+                            <a href="#speedRadios"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    { name: &#x27;1 - Slow&#x27;, value: 1 },
+    { name: &#x27;2&#x27;, value: 2 },
+    { name: &#x27;3 - Medium&#x27;, value: 3 },
+    { name: &#x27;4&#x27;, value: 4 },
+    { name: &#x27;5 - Fast&#x27;, value: 5 },
+    { name: &#x27;6 - Max&#x27;, value: 6 }
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/dashboard/dashboard.component.ts:53</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="speeds"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            speeds</b>
+                            <a href="#speeds"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[475, 350, 225, 125, 25, 2]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/dashboard/dashboard.component.ts:50</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tileTypeIndex"></a>
+                        <span class="name">
+                            <b>
+                            tileTypeIndex</b>
+                            <a href="#tileTypeIndex"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>this.tileTypes.indexOf(this.selectedTileTypeService.selectedTileType)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/dashboard/dashboard.component.ts:64</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tileTypes"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            tileTypes</b>
+                            <a href="#tileTypes"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[TileType.Grass, TileType.Water, TileType.Flower, TileType.Net]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/dashboard/dashboard.component.ts:62</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { AfterViewInit, Component, ElementRef, ViewChild } from &#x27;@angular/core&#x27;;
+import { MatDialog, MatDialogConfig } from &#x27;@angular/material/dialog&#x27;;
+import { Hotkey, HotkeysService } from &#x27;angular2-hotkeys&#x27;;
+import { CacheDialogComponent } from &#x27;../cache-dialog/cache-dialog.component&#x27;;
+import { DashboardDialogAboutComponent } from &#x27;./dashboard-dialog-about/dashboard-dialog-about.component&#x27;;
+import { DashboardDialogAwardsComponent } from &#x27;./dashboard-dialog-awards/dashboard-dialog-awards.component&#x27;;
+import { DashboardDialogCopyrightComponent } from &#x27;./dashboard-dialog-copyright/dashboard-dialog-copyright.component&#x27;;
+import { DashboardDialogHistoryComponent } from &#x27;./dashboard-dialog-history/dashboard-dialog-history.component&#x27;;
+import { EditorState, EditorTabsComponent } from &#x27;../editor-tabs/editor-tabs.component&#x27;;
+import { JerooIslandComponent } from &#x27;../island/island.component&#x27;;
+import { IslandService } from &#x27;../island.service&#x27;;
+import { MessageService, LoggingMessage } from &#x27;../message.service&#x27;;
+import { PrintService } from &#x27;../print.service&#x27;;
+import { EditorPreferencesComponent } from &#x27;./editor-preferences/editor-preferences.component&#x27;;
+import { CodeSaveDialogComponent } from &#x27;./code-save-dialog/code-save-dialog.component&#x27;;
+import { IslandSaveDialogComponent } from &#x27;./island-save-dialog/island-save-dialog.component&#x27;;
+import { SelectedTileTypeService } from &#x27;../selected-tile-type.service&#x27;;
+import { TileType } from &#x27;../tileType&#x27;;
+
+@Component({
+  selector: &#x27;app-dashboard&#x27;,
+  templateUrl: &#x27;./dashboard.component.html&#x27;,
+  styleUrls: [&#x27;./dashboard.component.scss&#x27;]
+})
+export class DashboardComponent implements AfterViewInit {
+  @ViewChild(&#x27;islandFileInput&#x27;, { static: true }) islandFileInput: ElementRef | null &#x3D; null;
+  @ViewChild(&#x27;codeFileInput&#x27;, { static: true }) codeFileInput: ElementRef | null &#x3D; null;
+  @ViewChild(&#x27;jerooIsland&#x27;, { static: true }) jerooIsland: JerooIslandComponent | null &#x3D; null;
+  @ViewChild(&#x27;jerooEditor&#x27;, { static: true }) jerooEditor: EditorTabsComponent | null &#x3D; null;
+  @ViewChild(&#x27;fileSaver&#x27;, { static: true }) fileSaver: ElementRef | null &#x3D; null;
+
+  private speeds &#x3D; [475, 350, 225, 125, 25, 2];
+  speedIndex &#x3D; 3;
+  runtimeSpeed &#x3D; this.speeds[this.speedIndex - 1];
+  speedRadios &#x3D; [
+    { name: &#x27;1 - Slow&#x27;, value: 1 },
+    { name: &#x27;2&#x27;, value: 2 },
+    { name: &#x27;3 - Medium&#x27;, value: 3 },
+    { name: &#x27;4&#x27;, value: 4 },
+    { name: &#x27;5 - Fast&#x27;, value: 5 },
+    { name: &#x27;6 - Max&#x27;, value: 6 }
+  ];
+
+  private tileTypes &#x3D; [TileType.Grass, TileType.Water, TileType.Flower, TileType.Net];
+  // set the default selected tile to whatever is in the service
+  tileTypeIndex &#x3D; this.tileTypes.indexOf(this.selectedTileTypeService.selectedTileType);
+
+  jerooEditorState: EditorState &#x3D; {
+    reset: true,
+    executing: false,
+    paused: false,
+    stopped: false
+  };
+
+  constructor(
+    private islandService: IslandService,
+    private hotkeysService: HotkeysService,
+    private messageService: MessageService,
+    private printService: PrintService,
+    private selectedTileTypeService: SelectedTileTypeService,
+    public dialog: MatDialog
+  ) {
+    this.hotkeysService.add(new Hotkey(&#x27;f2&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.onResetClick();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;f3&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.onRunStepwiseClick();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;f4&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.onRunContiniousClick();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;f5&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.onPauseClick();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;f6&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.onStopClick();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+shift+n&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.clearIsland();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+shift+o&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.openIslandFile();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+shift+s&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.saveIsland();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+shift+p&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.printIsland();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;f8&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      window.open(this.getHelpUrl());
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+n&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.newCodeFile();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+o&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.openCodeFile();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+s&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.saveCode();
+      return false;
+    }));
+    this.hotkeysService.add(new Hotkey(&#x27;ctrl+p&#x27;, (_event: KeyboardEvent): boolean &#x3D;&gt; {
+      this.printCode();
+      return false;
+    }));
+  }
+
+  ngAfterViewInit() {
+    if (
+      (this.jerooEditor &amp;&amp; this.jerooIsland) &amp;&amp;
+      (this.jerooEditor.hasCachedCode() || this.jerooEditor.hasCachedConfig() || this.jerooIsland.hasCachedIsland())
+    ) {
+      // setTimeout prevents a console error
+      // see: https://github.com/angular/material2/issues/5268
+      setTimeout(() &#x3D;&gt; {
+        const dialogRef &#x3D; this.dialog.open(CacheDialogComponent);
+        dialogRef.afterClosed().subscribe(loadCache &#x3D;&gt; {
+          if (this.jerooEditor &amp;&amp; this.jerooIsland) {
+            if (loadCache) {
+              if (this.jerooEditor.hasCachedCode()) {
+                this.jerooEditor.loadCodeFromCache();
+              }
+
+              if (this.jerooEditor.hasCachedConfig()) {
+                this.jerooEditor.loadPreferencesFromCache();
+              }
+
+              if (this.jerooIsland.hasCachedIsland()) {
+                this.jerooIsland.loadIslandFromCache();
+              }
+            } else {
+              this.jerooEditor.resetCache();
+              this.jerooEditor.resetPreferences();
+              this.jerooIsland.resetCache();
+            }
+          }
+        });
+      });
+    }
+  }
+
+  newCodeFile() {
+    if (this.jerooEditor) {
+      this.jerooEditor.clearCode();
+    }
+  }
+
+  openCodeFile() {
+    if (this.codeFileInput) {
+      const codeFileInput &#x3D; this.codeFileInput.nativeElement as HTMLInputElement;
+      codeFileInput.click();
+    }
+  }
+
+  codeFileSelected(file: File) {
+    if (this.editorEditingEnabled()) {
+      const reader &#x3D; new FileReader();
+      reader.readAsText(file, &#x27;UTF-8&#x27;);
+      reader.onload &#x3D; (readerEvent: any) &#x3D;&gt; {
+        if (this.jerooEditor) {
+          const content: string &#x3D; readerEvent.target.result;
+          this.jerooEditor.loadCode(content);
+        }
+      };
+    }
+  }
+
+  saveCode() {
+    if (this.jerooEditor) {
+      const dialogConfig &#x3D; new MatDialogConfig();
+      dialogConfig.data &#x3D; {
+        editorCode: this.jerooEditor.getCode()
+      };
+      this.dialog.open(CodeSaveDialogComponent, dialogConfig);
+    }
+  }
+
+  printCode() {
+    if (this.jerooEditor) {
+      const editorCode &#x3D; this.jerooEditor.getCode();
+      if (editorCode) {
+        this.printService.printCode(editorCode);
+      }
+    }
+  }
+
+  onUndoClick() {
+    if (this.jerooEditor) {
+      this.jerooEditor.undo();
+    }
+  }
+
+  onRedoClick() {
+    if (this.jerooEditor) {
+      this.jerooEditor.redo();
+    }
+  }
+
+  onToggleCommentLines() {
+    if (this.jerooEditor) {
+      this.jerooEditor.toggleComment();
+    }
+  }
+
+  onIndentSelectionClick() {
+    if (this.jerooEditor) {
+      this.jerooEditor.indentSelection();
+    }
+  }
+
+  onUnindentSelectionClick() {
+    if (this.jerooEditor) {
+      this.jerooEditor.unindentSelection();
+    }
+  }
+
+  onFormatClick() {
+    if (this.jerooEditor) {
+      this.jerooEditor.format();
+    }
+  }
+
+  onEditorPreferenceClick() {
+    this.dialog.open(EditorPreferencesComponent);
+  }
+
+  onRunStepwiseClick() {
+    if (this.jerooEditor &amp;&amp; this.jerooIsland &amp;&amp; !this.runBtnDisabled()) {
+      const context &#x3D; this.jerooIsland.getContext();
+      if (context) {
+        this.jerooEditor.runStepwise(context);
+      }
+    }
+  }
+
+  onRunContiniousClick() {
+    if (this.jerooEditor &amp;&amp; this.jerooIsland &amp;&amp; !this.runBtnDisabled()) {
+      const context &#x3D; this.jerooIsland.getContext();
+      if (context) {
+        this.jerooEditor.runContinious(context);
+      }
+    }
+  }
+
+  onResetClick() {
+    if (this.jerooEditor &amp;&amp; this.jerooIsland &amp;&amp; !this.resetBtnDisabled()) {
+      this.jerooEditor.resetState();
+      this.jerooIsland.resetState();
+    }
+  }
+
+  onPauseClick() {
+    if (this.jerooEditor &amp;&amp; !this.pauseBtnDisabled()) {
+      this.jerooEditor.pauseState();
+      const message &#x3D; new LoggingMessage(&#x27;Program paused by user&#x27;);
+      this.messageService.addMessage(message);
+    }
+  }
+
+  onStopClick() {
+    if (this.jerooEditor &amp;&amp; !this.stopBtnDisabled()) {
+      this.jerooEditor.stopState();
+      this.messageService.clear();
+      const message &#x3D; new LoggingMessage(&#x27;Program stopped by user&#x27;);
+      this.messageService.addMessage(message);
+    }
+  }
+
+  onSpeedRadioClick(speedValue: number) {
+    this.speedIndex &#x3D; speedValue;
+    this.onSpeedIndexChange();
+  }
+
+  onSpeedIndexChange() {
+    this.runtimeSpeed &#x3D; this.speeds[this.speedIndex - 1];
+  }
+
+  clearIsland() {
+    if (this.jerooIsland &amp;&amp; this.jerooEditorState.reset) {
+      this.jerooIsland.clearIsland();
+    }
+  }
+
+  openIslandFile() {
+    if (this.islandFileInput) {
+      const islandFileInput &#x3D; this.islandFileInput.nativeElement as HTMLInputElement;
+      islandFileInput.click();
+    }
+  }
+
+  islandFileSelected(file: File) {
+    if (this.islandEditingEnabled()) {
+      const reader &#x3D; new FileReader();
+      reader.readAsText(file, &#x27;UTF-8&#x27;);
+      reader.onload &#x3D; (readerEvent: any) &#x3D;&gt; {
+        if (this.jerooIsland) {
+          const content: string &#x3D; readerEvent.target.result;
+          this.islandService.genIslandFromString(content);
+          this.jerooIsland.redraw();
+          this.jerooIsland.saveInLocal(content);
+        }
+      };
+    }
+  }
+
+  saveIsland() {
+    this.dialog.open(IslandSaveDialogComponent);
+  }
+
+  printIsland() {
+    this.printService.printIsland();
+  }
+
+  changeIslandSize() {
+    if (this.jerooIsland) {
+      this.jerooIsland.openDialog();
+    }
+  }
+
+  getHelpUrl() {
+    if (this.jerooEditor) {
+      return this.jerooEditor.getHelpUrl();
+    }
+  }
+
+  getTutorialUrl() {
+    if (this.jerooEditor) {
+      return this.jerooEditor.getTutorialUrl();
+    }
+  }
+
+  resetBtnDisabled() {
+    return !this.jerooEditorState.reset
+      &amp;&amp; !this.jerooEditorState.paused
+      &amp;&amp; !this.jerooEditorState.stopped;
+  }
+
+  runBtnDisabled() {
+    return !this.jerooEditorState.paused &amp;&amp; !this.jerooEditorState.reset;
+  }
+
+  pauseBtnDisabled() {
+    return !this.jerooEditorState.executing;
+  }
+
+  stopBtnDisabled() {
+    return !this.jerooEditorState.executing &amp;&amp; !this.jerooEditorState.paused;
+  }
+
+  islandEditingEnabled() {
+    return this.jerooEditorState.reset;
+  }
+
+  editorEditingEnabled() {
+    return !this.jerooEditorState.executing &amp;&amp; !this.jerooEditorState.stopped &amp;&amp; !this.jerooEditorState.paused;
+  }
+
+  openAboutJeroo() {
+    this.dialog.open(DashboardDialogAboutComponent);
+  }
+
+  openAwards() {
+    this.dialog.open(DashboardDialogAwardsComponent);
+  }
+
+  openHistory() {
+    this.dialog.open(DashboardDialogHistoryComponent);
+  }
+
+  openCopyright() {
+    this.dialog.open(DashboardDialogCopyrightComponent);
+  }
+
+  onTileTypeRadioClick(tileTypeIndex: number) {
+    this.selectedTileTypeService.selectedTileType &#x3D; this.tileTypes[tileTypeIndex];
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+--&gt;
+
+&lt;mat-sidenav-container&gt;
+  &lt;mat-sidenav #sidenav role&#x3D;&quot;navigation&quot;&gt;
+    &lt;mat-nav-list&gt;
+      &lt;button mat-menu-item [matMenuTriggerFor]&#x3D;&quot;file&quot;&gt;Source File&lt;/button&gt;
+      &lt;button mat-menu-item [matMenuTriggerFor]&#x3D;&quot;edit&quot;&gt;Source Edit&lt;/button&gt;
+      &lt;button mat-menu-item [matMenuTriggerFor]&#x3D;&quot;run&quot;&gt;Run&lt;/button&gt;
+      &lt;button mat-menu-item [matMenuTriggerFor]&#x3D;&quot;speed&quot;&gt;Run Speed&lt;/button&gt;
+      &lt;button mat-menu-item [matMenuTriggerFor]&#x3D;&quot;islandFile&quot;&gt;Island File&lt;/button&gt;
+      &lt;button mat-menu-item [matMenuTriggerFor]&#x3D;&quot;islandEdit&quot;&gt;Island Edit&lt;/button&gt;
+      &lt;button mat-menu-item [matMenuTriggerFor]&#x3D;&quot;help&quot;&gt;Help&lt;/button&gt;
+    &lt;/mat-nav-list&gt;
+  &lt;/mat-sidenav&gt;
+  &lt;mat-sidenav-content&gt;
+    &lt;!--Toolbar Area--&gt;
+    &lt;mat-toolbar color&#x3D;&quot;primary&quot; class&#x3D;&quot;toolbar&quot;&gt;
+      &lt;mat-toolbar-row&gt;
+        &lt;div fxLayout&#x3D;&quot;row&quot; fxLayoutAlign&#x3D;&quot;none center&quot; fxLayoutGap&#x3D;&quot;3px&quot; fxHide.gt-sm&gt;
+          &lt;button mat-icon-button (click)&#x3D;&quot;sidenav.toggle()&quot;&gt;
+            &lt;fa-icon icon&#x3D;&quot;bars&quot;&gt;&lt;/fa-icon&gt;
+          &lt;/button&gt;
+          &lt;a href&#x3D;&quot;https://jeroo.org&quot;&gt;&lt;img src&#x3D;&quot;assets/JerooLogo.png&quot; alt&#x3D;&quot;Jeroo Logo&quot; /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div fxLayout&#x3D;&quot;row&quot; fxHide.lt-md&gt;
+          &lt;div fxLayout&#x3D;&quot;row&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+            &lt;a href&#x3D;&quot;https://jeroo.org&quot;&gt;&lt;img src&#x3D;&quot;assets/JerooLogo.png&quot; alt&#x3D;&quot;Jeroo Logo&quot; /&gt;&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div fxLayout&#x3D;&quot;row&quot; fxLayoutAlign&#x3D;&quot;center start&quot; class&#x3D;&quot;toolbar&quot;&gt;
+            &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+              &lt;button id&#x3D;&quot;sourceFileMenu&quot; mat-button [matMenuTriggerFor]&#x3D;&quot;file&quot;&gt;Source File&lt;/button&gt;
+              &lt;div&gt;
+                &lt;button mat-icon-button matTooltip&#x3D;&quot;New File&quot; [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;newCodeFile()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;file&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button mat-icon-button matTooltip&#x3D;&quot;Open File&quot; [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;openCodeFile()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;folder&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button mat-icon-button matTooltip&#x3D;&quot;Save&quot; (click)&#x3D;&quot;saveCode()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;save&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+              &lt;button id&#x3D;&quot;sourceEditMenu&quot; mat-button [matMenuTriggerFor]&#x3D;&quot;edit&quot;&gt;Source Edit&lt;/button&gt;
+              &lt;div&gt;
+                &lt;button id&#x3D;&quot;undoButton&quot; mat-icon-button matTooltip&#x3D;&quot;Undo&quot; [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onUndoClick()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;undo&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button id&#x3D;&quot;redoButton&quot; mat-icon-button matTooltip&#x3D;&quot;Redo&quot; [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onRedoClick()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;redo&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+              &lt;button id&#x3D;&quot;runMenu&quot; mat-button [matMenuTriggerFor]&#x3D;&quot;run&quot;&gt;Run&lt;/button&gt;
+              &lt;div&gt;
+                &lt;button id&#x3D;&quot;resetButton&quot; mat-icon-button matTooltip&#x3D;&quot;Reset the program and the island&quot; [disabled]&#x3D;&quot;resetBtnDisabled()&quot; (click)&#x3D;&quot;onResetClick()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;step-backward&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button id&#x3D;&quot;runButton&quot; mat-icon-button matTooltip&#x3D;&quot;Run the program step-by-step&quot; [disabled]&#x3D;&quot;runBtnDisabled()&quot; (click)&#x3D;&quot;onRunStepwiseClick()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;play&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button id&#x3D;&quot;runContiniousButton&quot; mat-icon-button matTooltip&#x3D;&quot;Run the program continuously&quot; [disabled]&#x3D;&quot;runBtnDisabled()&quot; (click)&#x3D;&quot;onRunContiniousClick()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;step-forward&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button id&#x3D;&quot;pauseButton&quot; mat-icon-button matTooltip&#x3D;&quot;Pause a currently running program&quot; [disabled]&#x3D;&quot;pauseBtnDisabled()&quot; (click)&#x3D;&quot;onPauseClick()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;pause&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button id&#x3D;&quot;stopButton&quot; mat-icon-button matTooltip&#x3D;&quot;Stop a running program&quot; [disabled]&#x3D;&quot;stopBtnDisabled()&quot; (click)&#x3D;&quot;onStopClick()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;stop&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+              &lt;button id&#x3D;&quot;runSpeedMenu&quot; mat-button [matMenuTriggerFor]&#x3D;&quot;speed&quot;&gt;Run Speed&lt;/button&gt;
+              &lt;div&gt;
+                &lt;mat-slider id&#x3D;&quot;speedSlider&quot; [(ngModel)]&#x3D;&quot;speedIndex&quot; (change)&#x3D;&quot;onSpeedIndexChange()&quot; min&#x3D;&quot;1&quot; max&#x3D;&quot;6&quot; tickInterval&#x3D;&quot;1&quot; thumbLabel&gt;&lt;/mat-slider&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+              &lt;button id&#x3D;&quot;islandFileMenu&quot; mat-button [matMenuTriggerFor]&#x3D;&quot;islandFile&quot;&gt;Island File&lt;/button&gt;
+              &lt;div&gt;
+                &lt;button id&#x3D;&quot;newIslandButton&quot; mat-icon-button matTooltip&#x3D;&quot;Create new island layout&quot; [disabled]&#x3D;&quot;!islandEditingEnabled()&quot; (click)&#x3D;&quot;clearIsland()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;eraser&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button mat-icon-button matTooltip&#x3D;&quot;Open an island file&quot; [disabled]&#x3D;&quot;!islandEditingEnabled()&quot; (click)&#x3D;&quot;openIslandFile()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;folder&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button mat-icon-button matTooltip&#x3D;&quot;Save the island to a file&quot; (click)&#x3D;&quot;saveIsland()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;save&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+                &lt;button mat-icon-button matTooltip&#x3D;&quot;Print the island layout&quot; (click)&#x3D;&quot;printIsland()&quot; aria-label&#x3D;&quot;text&quot;&gt;
+                  &lt;fa-icon icon&#x3D;&quot;print&quot;&gt;&lt;/fa-icon&gt;
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+              &lt;button id&#x3D;&quot;islandEditMenu&quot; mat-button [matMenuTriggerFor]&#x3D;&quot;islandEdit&quot;&gt;Island Edit&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;center center&quot;&gt;
+              &lt;button id&#x3D;&quot;helpMenu&quot; mat-button [matMenuTriggerFor]&#x3D;&quot;help&quot;&gt;Help&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/mat-toolbar-row&gt;
+    &lt;/mat-toolbar&gt;
+    &lt;!-- Menu Properties --&gt;
+    &lt;mat-menu #file&#x3D;&quot;matMenu&quot;&gt;
+      &lt;ng-template matMenuContent&gt;
+        &lt;button mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;newCodeFile()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;file&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;New&lt;/span&gt;&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+N&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;openCodeFile()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;folder&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Open&lt;/span&gt;&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+O&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;button mat-menu-item (click)&#x3D;&quot;saveCode()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;save&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Save&lt;/span&gt;&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+S&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;button mat-menu-item (click)&#x3D;&quot;printCode()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;folder-open&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Print&lt;/span&gt;&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+P&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/ng-template&gt;
+    &lt;/mat-menu&gt;
+    &lt;mat-menu #edit&#x3D;&quot;matMenu&quot;&gt;
+      &lt;ng-template matMenuContent&gt;
+        &lt;button id&#x3D;&quot;undoMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onUndoClick()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;undo&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Undo Last Edit&lt;/span&gt;&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+Z&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button id&#x3D;&quot;redoMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onRedoClick()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;redo&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Redo Last Undo&lt;/span&gt;&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+Shift+Z&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;button id&#x3D;&quot;commentMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onToggleCommentLines()&quot;&gt;Comment Lines&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+/&lt;/span&gt;&lt;/button&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;button id&#x3D;&quot;formatMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onFormatClick()&quot;&gt;Format&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+Shift+F&lt;/span&gt;&lt;/button&gt;
+        &lt;button id&#x3D;&quot;indentMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onIndentSelectionClick()&quot;&gt;Indent Selection&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Tab&lt;/span&gt;&lt;/button&gt;
+        &lt;button id&#x3D;&quot;unindentMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;!editorEditingEnabled()&quot; (click)&#x3D;&quot;onUnindentSelectionClick()&quot;&gt;Un-Indent Selection&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Shift+Tab&lt;/span&gt;&lt;/button&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;button mat-menu-item (click)&#x3D;&quot;onEditorPreferenceClick()&quot;&gt;Set Preferences&lt;/button&gt;
+      &lt;/ng-template&gt;
+    &lt;/mat-menu&gt;
+    &lt;mat-menu #run&#x3D;&quot;matMenu&quot;&gt;
+      &lt;ng-template matMenuContent&gt;
+        &lt;button id&#x3D;&quot;resetMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;resetBtnDisabled()&quot; (click)&#x3D;&quot;onResetClick()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;step-backward&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Reset&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;F2&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button id&#x3D;&quot;runMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;runBtnDisabled()&quot; (click)&#x3D;&quot;onRunStepwiseClick()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;play&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Run Stepwise&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;F3&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button id&#x3D;&quot;runContiniousMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;runBtnDisabled()&quot; (click)&#x3D;&quot;onRunContiniousClick()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;step-forward&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Run Continuously&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;F4&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button id&#x3D;&quot;pauseMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;pauseBtnDisabled()&quot; (click)&#x3D;&quot;onPauseClick()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;pause&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Pause&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;F5&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button id&#x3D;&quot;stopMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;stopBtnDisabled()&quot; (click)&#x3D;&quot;onStopClick()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;stop&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Stop Run&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;F6&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/ng-template&gt;
+    &lt;/mat-menu&gt;
+    &lt;mat-menu #speed&#x3D;&quot;matMenu&quot;&gt;
+      &lt;ng-template matMenuContent&gt;
+        &lt;mat-radio-group id&#x3D;&quot;speedIndex&quot; [(ngModel)]&#x3D;&quot;speedIndex&quot;&gt;
+          &lt;div mat-menu-item *ngFor&#x3D;&quot;let speedRadio of speedRadios&quot; id&#x3D;&quot;speed{{speedRadio.value}}Btn&quot; (click)&#x3D;&quot;onSpeedRadioClick(speedRadio.value)&quot;&gt;
+            &lt;mat-radio-button [value]&#x3D;&quot;speedRadio.value&quot;&gt;
+              &lt;span&gt;{{ speedRadio.name }}&lt;/span&gt;
+            &lt;/mat-radio-button&gt;
+          &lt;/div&gt;
+        &lt;/mat-radio-group&gt;
+      &lt;/ng-template&gt;
+    &lt;/mat-menu&gt;
+    &lt;mat-menu #islandFile&#x3D;&quot;matMenu&quot;&gt;
+      &lt;ng-template matMenuContent&gt;
+        &lt;button id&#x3D;&quot;newIslandMenuItem&quot; mat-menu-item [disabled]&#x3D;&quot;!islandEditingEnabled()&quot; (click)&#x3D;&quot;clearIsland()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;eraser&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;New&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+Shift+N&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;button mat-menu-item [disabled]&#x3D;&quot;!islandEditingEnabled()&quot; (click)&#x3D;&quot;openIslandFile()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;folder&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Open&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+Shift+O&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;button mat-menu-item (click)&#x3D;&quot;saveIsland()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;save&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Save&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+Shift+S&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;button mat-menu-item (click)&#x3D;&quot;printIsland()&quot;&gt;
+          &lt;fa-icon icon&#x3D;&quot;print&quot;&gt;&lt;/fa-icon&gt;&lt;span class&#x3D;&quot;menu-text&quot;&gt;Print&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;Ctrl+Shift+P&lt;/span&gt;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/ng-template&gt;
+    &lt;/mat-menu&gt;
+    &lt;mat-menu #islandEdit&#x3D;&quot;matMenu&quot;&gt;
+      &lt;ng-template matMenuContent&gt;
+        &lt;mat-radio-group [(ngModel)]&#x3D;&quot;tileTypeIndex&quot;&gt;
+          &lt;div mat-menu-item (click)&#x3D;&quot;onTileTypeRadioClick(0)&quot;&gt;
+            &lt;mat-radio-button [value]&#x3D;&quot;0&quot;&gt;
+              &lt;div fxLayout&#x3D;&quot;row&quot; fxLayoutAlign&#x3D;&quot;center center&quot; fxLayoutGap&#x3D;&quot;3px&quot;&gt;
+                &lt;img src&#x3D;&quot;assets/images/grass.jpg&quot; alt&#x3D;&quot;grass image&quot; height&#x3D;&quot;20&quot;&gt;
+                &lt;span&gt;Grass&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/mat-radio-button&gt;
+          &lt;/div&gt;
+          &lt;div mat-menu-item (click)&#x3D;&quot;onTileTypeRadioClick(1)&quot;&gt;
+            &lt;mat-radio-button [value]&#x3D;&quot;1&quot;&gt;
+              &lt;div fxLayout&#x3D;&quot;row&quot; fxLayoutAlign&#x3D;&quot;center center&quot; fxLayoutGap&#x3D;&quot;3px&quot;&gt;
+                &lt;img src&#x3D;&quot;assets/images/water.jpg&quot; alt&#x3D;&quot;water image&quot; height&#x3D;&quot;20&quot;&gt;
+                &lt;span&gt;Water&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/mat-radio-button&gt;
+          &lt;/div&gt;
+          &lt;div mat-menu-item (click)&#x3D;&quot;onTileTypeRadioClick(2)&quot;&gt;
+            &lt;mat-radio-button [value]&#x3D;&quot;2&quot;&gt;
+              &lt;div fxLayout&#x3D;&quot;row&quot; fxLayoutAlign&#x3D;&quot;center center&quot; fxLayoutGap&#x3D;&quot;3px&quot;&gt;
+                &lt;img src&#x3D;&quot;assets/images/flower.jpg&quot; alt&#x3D;&quot;flower image&quot; height&#x3D;&quot;20&quot;&gt;
+                &lt;span&gt;Flower&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/mat-radio-button&gt;
+          &lt;/div&gt;
+          &lt;div mat-menu-item (click)&#x3D;&quot;onTileTypeRadioClick(3)&quot;&gt;
+            &lt;mat-radio-button [value]&#x3D;&quot;3&quot;&gt;
+              &lt;div fxLayout&#x3D;&quot;row&quot; fxLayoutAlign&#x3D;&quot;center center&quot; fxLayoutGap&#x3D;&quot;3px&quot;&gt;
+                &lt;img src&#x3D;&quot;assets/images/net.jpg&quot; alt&#x3D;&quot;net&quot; height&#x3D;&quot;20&quot;&gt;
+                &lt;span&gt;Net&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/mat-radio-button&gt;
+          &lt;/div&gt;
+          &lt;mat-divider&gt;&lt;/mat-divider&gt;
+          &lt;div&gt;
+            &lt;button id&#x3D;&quot;changeIslandSize&quot; mat-menu-item [disabled]&#x3D;&quot;!islandEditingEnabled()&quot; (click)&#x3D;&quot;changeIslandSize()&quot;&gt;
+              &lt;span class&#x3D;&quot;menu-text&quot;&gt;Change Island Size&lt;/span&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/mat-radio-group&gt;
+      &lt;/ng-template&gt;
+    &lt;/mat-menu&gt;
+    &lt;mat-menu #help&#x3D;&quot;matMenu&quot;&gt;
+      &lt;ng-template matMenuContent&gt;
+        &lt;a mat-menu-item routerLink&#x3D;&quot;{{getHelpUrl()}}&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;span&gt;Langauge Summary&lt;span class&#x3D;&quot;shortcut-tip&quot;&gt;F8&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;mat-divider &gt;&lt;/mat-divider&gt;
+        &lt;a mat-menu-item routerLink&#x3D;&quot;{{getTutorialUrl()}}&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;span&gt;Getting Started Tutorial&lt;/span&gt;&lt;/a&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;a id&#x3D;&quot;bugReportItem&quot; mat-menu-item href&#x3D;&quot;mailto:support@jeroo.org?cc&#x3D;bdorn@unomaha.edu,benkonz@protonmail.com&amp;subject&#x3D;Enter the issue title&amp;body&#x3D;Enter the issue description&quot;&gt;
+          File Bug Report
+        &lt;/a&gt;
+        &lt;mat-divider&gt;&lt;/mat-divider&gt;
+        &lt;a id&#x3D;&quot;aboutMenuItem&quot; mat-menu-item (click)&#x3D;&quot;openAboutJeroo()&quot;&gt;About Jeroo&lt;/a&gt;
+        &lt;a id&#x3D;&quot;awardsMenuItem&quot; mat-menu-item (click)&#x3D;&quot;openAwards()&quot;&gt;Awards Received&lt;/a&gt;
+        &lt;a id&#x3D;&quot;historyMenuItem&quot; mat-menu-item (click)&#x3D;&quot;openHistory()&quot;&gt;Jeroo&#x27;s History&lt;/a&gt;
+        &lt;a id&#x3D;&quot;copyrightMenuItem&quot; mat-menu-item (click)&#x3D;&quot;openCopyright()&quot;&gt;Copyright Notice&lt;/a&gt;
+      &lt;/ng-template&gt;
+    &lt;/mat-menu&gt;
+    &lt;!--Text tabs Area--&gt;
+    &lt;div fxLayout&#x3D;&quot;row&quot; fxLayout.xs&#x3D;&quot;column&quot; fxLayout.sm&#x3D;&quot;column&quot;&gt;
+      &lt;div fxFlex&#x3D;&quot;60&quot;&gt;
+        &lt;app-editor-tabs #jerooEditor [(editorState)]&#x3D;&quot;jerooEditorState&quot; [speed]&#x3D;&quot;runtimeSpeed&quot;&gt;&lt;/app-editor-tabs&gt;
+      &lt;/div&gt;
+      &lt;!--Island Area--&gt;
+      &lt;div class&#x3D;&quot;jeroo-island-container&quot; fxFlex&#x3D;&quot;40&quot;&gt;
+        &lt;app-jeroo-island #jerooIsland [editingEnabled]&#x3D;&quot;islandEditingEnabled()&quot;&gt;&lt;/app-jeroo-island&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/mat-sidenav-content&gt;
+&lt;/mat-sidenav-container&gt;
+&lt;!-- Island file input --&gt;
+&lt;input #islandFileInput class&#x3D;&quot;invisible&quot; type&#x3D;&quot;file&quot; file-accept&#x3D;&quot;jev&quot; (change)&#x3D;&quot;islandFileSelected($event.target.files[0])&quot; /&gt;
+&lt;!-- code file input --&gt;
+&lt;input #codeFileInput class&#x3D;&quot;invisible&quot; type&#x3D;&quot;file&quot; file-accept&#x3D;&quot;jsc&quot; (change)&#x3D;&quot;codeFileSelected($event.target.files[0])&quot; /&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./dashboard.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">/* **********************************************************************
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+********************************************************************** */
+
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+.toolbar {
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+
+.menu-text {
+  padding-left: 10px;
+}
+
+.shortcut-tip {
+  float: right;
+  color: #999999;
+  padding-left: 10px;
+}
+
+.jeroo-island-container {
+  height: 600px;
+}
+
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--Jeroo is a programming language learning tool for students and teachers.Copyright (C) <2019>  <Benjamin Konz>This program is free software: you can redistribute it and/or modifyit under the terms of the GNU Affero General Public License aspublished by the Free Software Foundation, either version 3 of theLicense, or (at your option) any later version.This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See theGNU Affero General Public License for more details.You should have received a copy of the GNU Affero General Public Licensealong with this program.  If not, see <http://www.gnu.org/licenses/>.--><mat-sidenav-container>  <mat-sidenav #sidenav role="navigation">    <mat-nav-list>      <button mat-menu-item [matMenuTriggerFor]="file">Source File</button>      <button mat-menu-item [matMenuTriggerFor]="edit">Source Edit</button>      <button mat-menu-item [matMenuTriggerFor]="run">Run</button>      <button mat-menu-item [matMenuTriggerFor]="speed">Run Speed</button>      <button mat-menu-item [matMenuTriggerFor]="islandFile">Island File</button>      <button mat-menu-item [matMenuTriggerFor]="islandEdit">Island Edit</button>      <button mat-menu-item [matMenuTriggerFor]="help">Help</button>    </mat-nav-list>  </mat-sidenav>  <mat-sidenav-content>    <!--Toolbar Area-->    <mat-toolbar color="primary" class="toolbar">      <mat-toolbar-row>        <div fxLayout="row" fxLayoutAlign="none center" fxLayoutGap="3px" fxHide.gt-sm>          <button mat-icon-button (click)="sidenav.toggle()">            <fa-icon icon="bars"></fa-icon>          </button>          <a href="https://jeroo.org"><img src="assets/JerooLogo.png" alt="Jeroo Logo" /></a>        </div>        <div fxLayout="row" fxHide.lt-md>          <div fxLayout="row" fxLayoutAlign="center center">            <a href="https://jeroo.org"><img src="assets/JerooLogo.png" alt="Jeroo Logo" /></a>          </div>          <div fxLayout="row" fxLayoutAlign="center start" class="toolbar">            <div fxLayout="column" fxLayoutAlign="center center">              <button id="sourceFileMenu" mat-button [matMenuTriggerFor]="file">Source File</button>              <div>                <button mat-icon-button matTooltip="New File" [disabled]="!editorEditingEnabled()" (click)="newCodeFile()" aria-label="text">                  <fa-icon icon="file"></fa-icon>                </button>                <button mat-icon-button matTooltip="Open File" [disabled]="!editorEditingEnabled()" (click)="openCodeFile()" aria-label="text">                  <fa-icon icon="folder"></fa-icon>                </button>                <button mat-icon-button matTooltip="Save" (click)="saveCode()" aria-label="text">                  <fa-icon icon="save"></fa-icon>                </button>              </div>            </div>            <div fxLayout="column" fxLayoutAlign="center center">              <button id="sourceEditMenu" mat-button [matMenuTriggerFor]="edit">Source Edit</button>              <div>                <button id="undoButton" mat-icon-button matTooltip="Undo" [disabled]="!editorEditingEnabled()" (click)="onUndoClick()" aria-label="text">                  <fa-icon icon="undo"></fa-icon>                </button>                <button id="redoButton" mat-icon-button matTooltip="Redo" [disabled]="!editorEditingEnabled()" (click)="onRedoClick()" aria-label="text">                  <fa-icon icon="redo"></fa-icon>                </button>              </div>            </div>            <div fxLayout="column" fxLayoutAlign="center center">              <button id="runMenu" mat-button [matMenuTriggerFor]="run">Run</button>              <div>                <button id="resetButton" mat-icon-button matTooltip="Reset the program and the island" [disabled]="resetBtnDisabled()" (click)="onResetClick()" aria-label="text">                  <fa-icon icon="step-backward"></fa-icon>                </button>                <button id="runButton" mat-icon-button matTooltip="Run the program step-by-step" [disabled]="runBtnDisabled()" (click)="onRunStepwiseClick()" aria-label="text">                  <fa-icon icon="play"></fa-icon>                </button>                <button id="runContiniousButton" mat-icon-button matTooltip="Run the program continuously" [disabled]="runBtnDisabled()" (click)="onRunContiniousClick()" aria-label="text">                  <fa-icon icon="step-forward"></fa-icon>                </button>                <button id="pauseButton" mat-icon-button matTooltip="Pause a currently running program" [disabled]="pauseBtnDisabled()" (click)="onPauseClick()" aria-label="text">                  <fa-icon icon="pause"></fa-icon>                </button>                <button id="stopButton" mat-icon-button matTooltip="Stop a running program" [disabled]="stopBtnDisabled()" (click)="onStopClick()" aria-label="text">                  <fa-icon icon="stop"></fa-icon>                </button>              </div>            </div>            <div fxLayout="column" fxLayoutAlign="center center">              <button id="runSpeedMenu" mat-button [matMenuTriggerFor]="speed">Run Speed</button>              <div>                <mat-slider id="speedSlider" [(ngModel)]="speedIndex" (change)="onSpeedIndexChange()" min="1" max="6" tickInterval="1" thumbLabel></mat-slider>              </div>            </div>            <div fxLayout="column" fxLayoutAlign="center center">              <button id="islandFileMenu" mat-button [matMenuTriggerFor]="islandFile">Island File</button>              <div>                <button id="newIslandButton" mat-icon-button matTooltip="Create new island layout" [disabled]="!islandEditingEnabled()" (click)="clearIsland()" aria-label="text">                  <fa-icon icon="eraser"></fa-icon>                </button>                <button mat-icon-button matTooltip="Open an island file" [disabled]="!islandEditingEnabled()" (click)="openIslandFile()" aria-label="text">                  <fa-icon icon="folder"></fa-icon>                </button>                <button mat-icon-button matTooltip="Save the island to a file" (click)="saveIsland()" aria-label="text">                  <fa-icon icon="save"></fa-icon>                </button>                <button mat-icon-button matTooltip="Print the island layout" (click)="printIsland()" aria-label="text">                  <fa-icon icon="print"></fa-icon>                </button>              </div>            </div>            <div fxLayout="column" fxLayoutAlign="center center">              <button id="islandEditMenu" mat-button [matMenuTriggerFor]="islandEdit">Island Edit</button>            </div>            <div fxLayout="column" fxLayoutAlign="center center">              <button id="helpMenu" mat-button [matMenuTriggerFor]="help">Help</button>            </div>          </div>        </div>      </mat-toolbar-row>    </mat-toolbar>    <!-- Menu Properties -->    <mat-menu #file="matMenu">      <ng-template matMenuContent>        <button mat-menu-item [disabled]="!editorEditingEnabled()" (click)="newCodeFile()">          <fa-icon icon="file"></fa-icon><span class="menu-text">New</span><span class="shortcut-tip">Ctrl+N</span>        </button>        <button mat-menu-item [disabled]="!editorEditingEnabled()" (click)="openCodeFile()">          <fa-icon icon="folder"></fa-icon><span class="menu-text">Open</span><span class="shortcut-tip">Ctrl+O</span>        </button>        <mat-divider></mat-divider>        <button mat-menu-item (click)="saveCode()">          <fa-icon icon="save"></fa-icon><span class="menu-text">Save</span><span class="shortcut-tip">Ctrl+S</span>        </button>        <mat-divider></mat-divider>        <button mat-menu-item (click)="printCode()">          <fa-icon icon="folder-open"></fa-icon><span class="menu-text">Print</span><span class="shortcut-tip">Ctrl+P</span>        </button>      </ng-template>    </mat-menu>    <mat-menu #edit="matMenu">      <ng-template matMenuContent>        <button id="undoMenuItem" mat-menu-item [disabled]="!editorEditingEnabled()" (click)="onUndoClick()">          <fa-icon icon="undo"></fa-icon><span class="menu-text">Undo Last Edit</span><span class="shortcut-tip">Ctrl+Z</span>        </button>        <button id="redoMenuItem" mat-menu-item [disabled]="!editorEditingEnabled()" (click)="onRedoClick()">          <fa-icon icon="redo"></fa-icon><span class="menu-text">Redo Last Undo</span><span class="shortcut-tip">Ctrl+Shift+Z</span>        </button>        <mat-divider></mat-divider>        <button id="commentMenuItem" mat-menu-item [disabled]="!editorEditingEnabled()" (click)="onToggleCommentLines()">Comment Lines<span class="shortcut-tip">Ctrl+/</span></button>        <mat-divider></mat-divider>        <button id="formatMenuItem" mat-menu-item [disabled]="!editorEditingEnabled()" (click)="onFormatClick()">Format<span class="shortcut-tip">Ctrl+Shift+F</span></button>        <button id="indentMenuItem" mat-menu-item [disabled]="!editorEditingEnabled()" (click)="onIndentSelectionClick()">Indent Selection<span class="shortcut-tip">Tab</span></button>        <button id="unindentMenuItem" mat-menu-item [disabled]="!editorEditingEnabled()" (click)="onUnindentSelectionClick()">Un-Indent Selection<span class="shortcut-tip">Shift+Tab</span></button>        <mat-divider></mat-divider>        <button mat-menu-item (click)="onEditorPreferenceClick()">Set Preferences</button>      </ng-template>    </mat-menu>    <mat-menu #run="matMenu">      <ng-template matMenuContent>        <button id="resetMenuItem" mat-menu-item [disabled]="resetBtnDisabled()" (click)="onResetClick()">          <fa-icon icon="step-backward"></fa-icon><span class="menu-text">Reset<span class="shortcut-tip">F2</span></span>        </button>        <button id="runMenuItem" mat-menu-item [disabled]="runBtnDisabled()" (click)="onRunStepwiseClick()">          <fa-icon icon="play"></fa-icon><span class="menu-text">Run Stepwise<span class="shortcut-tip">F3</span></span>        </button>        <button id="runContiniousMenuItem" mat-menu-item [disabled]="runBtnDisabled()" (click)="onRunContiniousClick()">          <fa-icon icon="step-forward"></fa-icon><span class="menu-text">Run Continuously<span class="shortcut-tip">F4</span></span>        </button>        <button id="pauseMenuItem" mat-menu-item [disabled]="pauseBtnDisabled()" (click)="onPauseClick()">          <fa-icon icon="pause"></fa-icon><span class="menu-text">Pause<span class="shortcut-tip">F5</span></span>        </button>        <button id="stopMenuItem" mat-menu-item [disabled]="stopBtnDisabled()" (click)="onStopClick()">          <fa-icon icon="stop"></fa-icon><span class="menu-text">Stop Run<span class="shortcut-tip">F6</span></span>        </button>      </ng-template>    </mat-menu>    <mat-menu #speed="matMenu">      <ng-template matMenuContent>        <mat-radio-group id="speedIndex" [(ngModel)]="speedIndex">          <div mat-menu-item *ngFor="let speedRadio of speedRadios" id="speed{{speedRadio.value}}Btn" (click)="onSpeedRadioClick(speedRadio.value)">            <mat-radio-button [value]="speedRadio.value">              <span>{{ speedRadio.name }}</span>            </mat-radio-button>          </div>        </mat-radio-group>      </ng-template>    </mat-menu>    <mat-menu #islandFile="matMenu">      <ng-template matMenuContent>        <button id="newIslandMenuItem" mat-menu-item [disabled]="!islandEditingEnabled()" (click)="clearIsland()">          <fa-icon icon="eraser"></fa-icon><span class="menu-text">New<span class="shortcut-tip">Ctrl+Shift+N</span></span>        </button>        <button mat-menu-item [disabled]="!islandEditingEnabled()" (click)="openIslandFile()">          <fa-icon icon="folder"></fa-icon><span class="menu-text">Open<span class="shortcut-tip">Ctrl+Shift+O</span></span>        </button>        <mat-divider></mat-divider>        <button mat-menu-item (click)="saveIsland()">          <fa-icon icon="save"></fa-icon><span class="menu-text">Save<span class="shortcut-tip">Ctrl+Shift+S</span></span>        </button>        <mat-divider></mat-divider>        <button mat-menu-item (click)="printIsland()">          <fa-icon icon="print"></fa-icon><span class="menu-text">Print<span class="shortcut-tip">Ctrl+Shift+P</span></span>        </button>      </ng-template>    </mat-menu>    <mat-menu #islandEdit="matMenu">      <ng-template matMenuContent>        <mat-radio-group [(ngModel)]="tileTypeIndex">          <div mat-menu-item (click)="onTileTypeRadioClick(0)">            <mat-radio-button [value]="0">              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="3px">                <img src="assets/images/grass.jpg" alt="grass image" height="20">                <span>Grass</span>              </div>            </mat-radio-button>          </div>          <div mat-menu-item (click)="onTileTypeRadioClick(1)">            <mat-radio-button [value]="1">              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="3px">                <img src="assets/images/water.jpg" alt="water image" height="20">                <span>Water</span>              </div>            </mat-radio-button>          </div>          <div mat-menu-item (click)="onTileTypeRadioClick(2)">            <mat-radio-button [value]="2">              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="3px">                <img src="assets/images/flower.jpg" alt="flower image" height="20">                <span>Flower</span>              </div>            </mat-radio-button>          </div>          <div mat-menu-item (click)="onTileTypeRadioClick(3)">            <mat-radio-button [value]="3">              <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="3px">                <img src="assets/images/net.jpg" alt="net" height="20">                <span>Net</span>              </div>            </mat-radio-button>          </div>          <mat-divider></mat-divider>          <div>            <button id="changeIslandSize" mat-menu-item [disabled]="!islandEditingEnabled()" (click)="changeIslandSize()">              <span class="menu-text">Change Island Size</span>            </button>          </div>        </mat-radio-group>      </ng-template>    </mat-menu>    <mat-menu #help="matMenu">      <ng-template matMenuContent>        <a mat-menu-item routerLink="{{getHelpUrl()}}" target="_blank"><span>Langauge Summary<span class="shortcut-tip">F8</span></span></a>        <mat-divider ></mat-divider>        <a mat-menu-item routerLink="{{getTutorialUrl()}}" target="_blank"><span>Getting Started Tutorial</span></a>        <mat-divider></mat-divider>        <a id="bugReportItem" mat-menu-item href="mailto:support@jeroo.org?cc=bdorn@unomaha.edu,benkonz@protonmail.com&subject=Enter the issue title&body=Enter the issue description">          File Bug Report        </a>        <mat-divider></mat-divider>        <a id="aboutMenuItem" mat-menu-item (click)="openAboutJeroo()">About Jeroo</a>        <a id="awardsMenuItem" mat-menu-item (click)="openAwards()">Awards Received</a>        <a id="historyMenuItem" mat-menu-item (click)="openHistory()">Jeroo\'s History</a>        <a id="copyrightMenuItem" mat-menu-item (click)="openCopyright()">Copyright Notice</a>      </ng-template>    </mat-menu>    <!--Text tabs Area-->    <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column">      <div fxFlex="60">        <app-editor-tabs #jerooEditor [(editorState)]="jerooEditorState" [speed]="runtimeSpeed"></app-editor-tabs>      </div>      <!--Island Area-->      <div class="jeroo-island-container" fxFlex="40">        <app-jeroo-island #jerooIsland [editingEnabled]="islandEditingEnabled()"></app-jeroo-island>      </div>    </div>  </mat-sidenav-content></mat-sidenav-container><!-- Island file input --><input #islandFileInput class="invisible" type="file" file-accept="jev" (change)="islandFileSelected($event.target.files[0])" /><!-- code file input --><input #codeFileInput class="invisible" type="file" file-accept="jsc" (change)="codeFileSelected($event.target.files[0])" /></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CacheDialogComponent', 'selector': 'app-cache-dialog'},{'name': 'ChnageIslandSizeDialogComponent', 'selector': 'app-change-island-dialog-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CompilationErrorMessageComponent', 'selector': 'app-compilation-error-message'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'EditorComponent', 'selector': 'app-editor'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorTabsComponent', 'selector': 'app-editor-tabs'},{'name': 'HelpActionComponent', 'selector': 'app-help-action'},{'name': 'HelpBooleanComponent', 'selector': 'app-help-boolean'},{'name': 'HelpCompassComponent', 'selector': 'app-help-compass'},{'name': 'HelpConditionJavaComponent', 'selector': 'app-help-condition-java'},{'name': 'HelpConditionPythonComponent', 'selector': 'app-help-condition-python'},{'name': 'HelpConditionVBComponent', 'selector': 'app-help-condition-vb'},{'name': 'HelpControlStructJavaComponent', 'selector': 'app-help-control-struct-java'},{'name': 'HelpControlStructPythonComponent', 'selector': 'app-help-control-struct-python'},{'name': 'HelpControlStructVBComponent', 'selector': 'app-help-control-struct-vb'},{'name': 'HelpDirectionsComponent', 'selector': 'app-help-directions'},{'name': 'HelpGeneralJavaComponent', 'selector': 'app-help-general-java'},{'name': 'HelpGeneralPythonComponent', 'selector': 'app-help-general-python'},{'name': 'HelpGeneralVbComponent', 'selector': 'app-help-general-vb'},{'name': 'HelpInstantiationJavaComponent', 'selector': 'app-help-instantiation-java'},{'name': 'HelpInstantiationPythonComponent', 'selector': 'app-help-instantiation-python'},{'name': 'HelpInstantiationVbComponent', 'selector': 'app-help-instantiation-vb'},{'name': 'HelpMethodJavaComponent', 'selector': 'app-help-method-java'},{'name': 'HelpMethodPythonComponent', 'selector': 'app-help-method-python'},{'name': 'HelpMethodVbComponent', 'selector': 'app-help-method-vb'},{'name': 'HelpRelativeComponent', 'selector': 'app-help-relative'},{'name': 'HelpTutorialJavaComponent', 'selector': 'app-help-tutorial-java'},{'name': 'HelpTutorialPythonComponent', 'selector': 'app-help-tutorial-python'},{'name': 'HelpTutorialVbComponent', 'selector': 'app-help-tutorial-vb'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'JavaHelpComponent', 'selector': 'app-java-help'},{'name': 'JerooIslandComponent', 'selector': 'app-jeroo-island'},{'name': 'JerooStatusComponent', 'selector': 'app-jeroo-status'},{'name': 'LevelEditorComponent', 'selector': 'app-dashboard'},{'name': 'LoggingMessageComponent', 'selector': 'app-logging-message'},{'name': 'MessagesComponent', 'selector': 'app-messages'},{'name': 'PrintCodeComponent', 'selector': 'app-print-code'},{'name': 'PrintCodeDialogComponent', 'selector': 'app-print-code-dialog'},{'name': 'PrintIslandComponent', 'selector': 'app-print-island'},{'name': 'PrintLayoutComponent', 'selector': 'app-print-layout'},{'name': 'PythonHelpComponent', 'selector': 'app-python-help'},{'name': 'RuntimeErrorMessageComponent', 'selector': 'app-runtime-error-message'},{'name': 'VBHelpComponent', 'selector': 'app-vbhelp'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'DashboardComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'DashboardComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

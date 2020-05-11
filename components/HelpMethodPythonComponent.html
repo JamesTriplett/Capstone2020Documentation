@@ -1,0 +1,365 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>HelpMethodPythonComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/help/python-help/help-method-python/help-method-python.component.ts</code>
+</p>
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-help-method-python</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>../../help.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./help-method-python.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/help/python-help/help-method-python/help-method-python.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component } from &#x27;@angular/core&#x27;;
+
+@Component({
+  selector: &#x27;app-help-method-python&#x27;,
+  templateUrl: &#x27;./help-method-python.component.html&#x27;,
+  styleUrls: [&#x27;../../help.scss&#x27;]
+})
+export class HelpMethodPythonComponent {
+  constructor() { }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+--&gt;
+
+&lt;div class&#x3D;&quot;help-content&quot;&gt;
+  &lt;h1&gt;Methods (Python Style)&lt;/h1&gt;
+
+  A Jeroo program must contain a main section, and usually contains several user-defined Jeroo methods
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;h3&gt;Main Section&lt;/h3&gt;
+  Every Jeroo program must include a main section. Code for the main section is written in the &lt;b&gt;&lt;i&gt;main&lt;/i&gt;&lt;/b&gt; tab of the editor, and must have the following form.
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;table border&#x3D;&quot;1&quot; cellpadding&#x3D;&quot;5&quot;&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;font size&#x3D;&quot;3&quot; color&#x3D;&quot;#000000&quot; face&#x3D;&quot;courier&quot;&gt;
+          &lt;br&gt;
+          &lt;pre&gt;#-- declare and instantiate all Jeroos
+
+#-- use the Jeroos to solve the problem
+          &lt;/pre&gt;
+        &lt;/font&gt;
+  &lt;/table&gt;
+  &lt;ul&gt;
+    &lt;li&gt; All Jeroos must be declared and instantiated at the
+      beginning of the main section.&lt;/li&gt;
+    &lt;li&gt; The rest of the main section is used to direct the actions of the
+      Jeroos by sending them messages to execute predefined or
+      user-defined methods.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;h3&gt;User-Defined Jeroo Methods&lt;/h3&gt;
+  A Jeroo program can have any number of user-defined Jeroo methods.
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;table border&#x3D;&quot;1&quot; cellpadding&#x3D;&quot;5&quot;&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;font size&#x3D;&quot;3&quot; color&#x3D;&quot;#000000&quot; face&#x3D;&quot;courier&quot;&gt;
+          &lt;b&gt;def&lt;/b&gt; &lt;i&gt; identifier&lt;/i&gt;&lt;b&gt;(self):&lt;/b&gt;&lt;br&gt;
+          &lt;br&gt;
+          &lt;pre&gt;    #-- body of the method (indented)
+          &lt;/pre&gt;
+        &lt;/font&gt;
+  &lt;/table&gt;
+  &lt;ul&gt;
+    &lt;li&gt; A user-defined method extends the capabilites of every Jeroo.&lt;/li&gt;
+    &lt;li&gt; The source code in a user-defined Jeroo method must invoke a
+      method directly, instead of sending a message to a specific Jeroo.
+      For example, &lt;b&gt;hop()&lt;/b&gt; instead of &lt;b&gt;jessica.hop()&lt;/b&gt;.&lt;/li&gt;
+    &lt;li&gt; A user-defined Jeroo method can invoke other user-defined Jeroo
+      methods. It can even invoke itself; this is called &lt;i&gt;recursion&lt;/i&gt;.&lt;/li&gt;
+    &lt;li&gt; User-defined Jeroo methods can appear in any order in the source code.&lt;/li&gt;
+    &lt;li&gt; &lt;b&gt;SYNTAX NOTE:&lt;/b&gt; &lt;br&gt;&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt; The first line of the body must be indented further than &lt;b&gt;def&lt;/b&gt;.&lt;/li&gt;
+      &lt;li&gt; The body includes all lines that are indented
+        at least as far as the first line of the body.&lt;/li&gt;
+      &lt;li&gt; The &quot;next statement&quot; should be indented exactly as far as &lt;b&gt;def&lt;/b&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>../../help.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">/* **********************************************************************
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+********************************************************************** */
+
+.help-content {
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--Jeroo is a programming language learning tool for students and teachers.Copyright (C) <2019>  <Benjamin Konz>This program is free software: you can redistribute it and/or modifyit under the terms of the GNU Affero General Public License aspublished by the Free Software Foundation, either version 3 of theLicense, or (at your option) any later version.This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See theGNU Affero General Public License for more details.You should have received a copy of the GNU Affero General Public Licensealong with this program.  If not, see <http://www.gnu.org/licenses/>.--><div class="help-content">  <h1>Methods (Python Style)</h1>  A Jeroo program must contain a main section, and usually contains several user-defined Jeroo methods  <br>  <br>  <h3>Main Section</h3>  Every Jeroo program must include a main section. Code for the main section is written in the <b><i>main</i></b> tab of the editor, and must have the following form.  <br>  <br>  <table border="1" cellpadding="5">    <tr>      <td>        <font size="3" color="#000000" face="courier">          <br>          <pre>#-- declare and instantiate all Jeroos#-- use the Jeroos to solve the problem          </pre>        </font>  </table>  <ul>    <li> All Jeroos must be declared and instantiated at the      beginning of the main section.</li>    <li> The rest of the main section is used to direct the actions of the      Jeroos by sending them messages to execute predefined or      user-defined methods.</li>  </ul>  <br>  <br>  <h3>User-Defined Jeroo Methods</h3>  A Jeroo program can have any number of user-defined Jeroo methods.  <br>  <br>  <table border="1" cellpadding="5">    <tr>      <td>        <font size="3" color="#000000" face="courier">          <b>def</b> <i> identifier</i><b>(self):</b><br>          <br>          <pre>    #-- body of the method (indented)          </pre>        </font>  </table>  <ul>    <li> A user-defined method extends the capabilites of every Jeroo.</li>    <li> The source code in a user-defined Jeroo method must invoke a      method directly, instead of sending a message to a specific Jeroo.      For example, <b>hop()</b> instead of <b>jessica.hop()</b>.</li>    <li> A user-defined Jeroo method can invoke other user-defined Jeroo      methods. It can even invoke itself; this is called <i>recursion</i>.</li>    <li> User-defined Jeroo methods can appear in any order in the source code.</li>    <li> <b>SYNTAX NOTE:</b> <br></li>    <ul>      <li> The first line of the body must be indented further than <b>def</b>.</li>      <li> The body includes all lines that are indented        at least as far as the first line of the body.</li>      <li> The "next statement" should be indented exactly as far as <b>def</b>.</li>    </ul>  </ul></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CacheDialogComponent', 'selector': 'app-cache-dialog'},{'name': 'ChnageIslandSizeDialogComponent', 'selector': 'app-change-island-dialog-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CompilationErrorMessageComponent', 'selector': 'app-compilation-error-message'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'EditorComponent', 'selector': 'app-editor'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorTabsComponent', 'selector': 'app-editor-tabs'},{'name': 'HelpActionComponent', 'selector': 'app-help-action'},{'name': 'HelpBooleanComponent', 'selector': 'app-help-boolean'},{'name': 'HelpCompassComponent', 'selector': 'app-help-compass'},{'name': 'HelpConditionJavaComponent', 'selector': 'app-help-condition-java'},{'name': 'HelpConditionPythonComponent', 'selector': 'app-help-condition-python'},{'name': 'HelpConditionVBComponent', 'selector': 'app-help-condition-vb'},{'name': 'HelpControlStructJavaComponent', 'selector': 'app-help-control-struct-java'},{'name': 'HelpControlStructPythonComponent', 'selector': 'app-help-control-struct-python'},{'name': 'HelpControlStructVBComponent', 'selector': 'app-help-control-struct-vb'},{'name': 'HelpDirectionsComponent', 'selector': 'app-help-directions'},{'name': 'HelpGeneralJavaComponent', 'selector': 'app-help-general-java'},{'name': 'HelpGeneralPythonComponent', 'selector': 'app-help-general-python'},{'name': 'HelpGeneralVbComponent', 'selector': 'app-help-general-vb'},{'name': 'HelpInstantiationJavaComponent', 'selector': 'app-help-instantiation-java'},{'name': 'HelpInstantiationPythonComponent', 'selector': 'app-help-instantiation-python'},{'name': 'HelpInstantiationVbComponent', 'selector': 'app-help-instantiation-vb'},{'name': 'HelpMethodJavaComponent', 'selector': 'app-help-method-java'},{'name': 'HelpMethodPythonComponent', 'selector': 'app-help-method-python'},{'name': 'HelpMethodVbComponent', 'selector': 'app-help-method-vb'},{'name': 'HelpRelativeComponent', 'selector': 'app-help-relative'},{'name': 'HelpTutorialJavaComponent', 'selector': 'app-help-tutorial-java'},{'name': 'HelpTutorialPythonComponent', 'selector': 'app-help-tutorial-python'},{'name': 'HelpTutorialVbComponent', 'selector': 'app-help-tutorial-vb'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'JavaHelpComponent', 'selector': 'app-java-help'},{'name': 'JerooIslandComponent', 'selector': 'app-jeroo-island'},{'name': 'JerooStatusComponent', 'selector': 'app-jeroo-status'},{'name': 'LevelEditorComponent', 'selector': 'app-dashboard'},{'name': 'LoggingMessageComponent', 'selector': 'app-logging-message'},{'name': 'MessagesComponent', 'selector': 'app-messages'},{'name': 'PrintCodeComponent', 'selector': 'app-print-code'},{'name': 'PrintCodeDialogComponent', 'selector': 'app-print-code-dialog'},{'name': 'PrintIslandComponent', 'selector': 'app-print-island'},{'name': 'PrintLayoutComponent', 'selector': 'app-print-layout'},{'name': 'PythonHelpComponent', 'selector': 'app-python-help'},{'name': 'RuntimeErrorMessageComponent', 'selector': 'app-runtime-error-message'},{'name': 'VBHelpComponent', 'selector': 'app-vbhelp'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'HelpMethodPythonComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'HelpMethodPythonComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

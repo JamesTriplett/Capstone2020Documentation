@@ -1,0 +1,2837 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>EditorTabsComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/editor-tabs/editor-tabs.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-editor-tabs</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./editor-tabs.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./editor-tabs.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#codeService">codeService</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialog">dialog</a>
+                            </li>
+                            <li>
+                                <a href="#editorStateValue">editorStateValue</a>
+                            </li>
+                            <li>
+                                <a href="#extensionMethodsEditor">extensionMethodsEditor</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#instructions">instructions</a>
+                            </li>
+                            <li>
+                                <a href="#languages">languages</a>
+                            </li>
+                            <li>
+                                <a href="#mainMethodEditor">mainMethodEditor</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#previousInstruction">previousInstruction</a>
+                            </li>
+                            <li>
+                                <a href="#selectedTabIndex">selectedTabIndex</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#cleanupExecution">cleanupExecution</a>
+                            </li>
+                            <li>
+                                <a href="#clearCode">clearCode</a>
+                            </li>
+                            <li>
+                                <a href="#executingState">executingState</a>
+                            </li>
+                            <li>
+                                <a href="#format">format</a>
+                            </li>
+                            <li>
+                                <a href="#getCode">getCode</a>
+                            </li>
+                            <li>
+                                <a href="#getHelpUrl">getHelpUrl</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#getSelectedEditor">getSelectedEditor</a>
+                            </li>
+                            <li>
+                                <a href="#getTutorialUrl">getTutorialUrl</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#handleException">handleException</a>
+                            </li>
+                            <li>
+                                <a href="#hasCachedCode">hasCachedCode</a>
+                            </li>
+                            <li>
+                                <a href="#hasCachedConfig">hasCachedConfig</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#highlightCurrentLine">highlightCurrentLine</a>
+                            </li>
+                            <li>
+                                <a href="#indentSelection">indentSelection</a>
+                            </li>
+                            <li>
+                                <a href="#loadCode">loadCode</a>
+                            </li>
+                            <li>
+                                <a href="#loadCodeFromCache">loadCodeFromCache</a>
+                            </li>
+                            <li>
+                                <a href="#loadPreferencesFromCache">loadPreferencesFromCache</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit">ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#onEditorTabIndexChange">onEditorTabIndexChange</a>
+                            </li>
+                            <li>
+                                <a href="#pauseState">pauseState</a>
+                            </li>
+                            <li>
+                                <a href="#redo">redo</a>
+                            </li>
+                            <li>
+                                <a href="#resetCache">resetCache</a>
+                            </li>
+                            <li>
+                                <a href="#resetPreferences">resetPreferences</a>
+                            </li>
+                            <li>
+                                <a href="#resetState">resetState</a>
+                            </li>
+                            <li>
+                                <a href="#runContinious">runContinious</a>
+                            </li>
+                            <li>
+                                <a href="#runStepwise">runStepwise</a>
+                            </li>
+                            <li>
+                                <a href="#saveToLocal">saveToLocal</a>
+                            </li>
+                            <li>
+                                <a href="#stopState">stopState</a>
+                            </li>
+                            <li>
+                                <a href="#toggleComment">toggleComment</a>
+                            </li>
+                            <li>
+                                <a href="#undo">undo</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#unhighlightPreviousLine">unhighlightPreviousLine</a>
+                            </li>
+                            <li>
+                                <a href="#unindentSelection">unindentSelection</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#editorState">editorState</a>
+                            </li>
+                            <li>
+                                <a href="#speed">speed</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#editorStateChange">editorStateChange</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Accessors</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                    <a href="#editorState">editorState</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(messageService: <a href="../injectables/MessageService.html">MessageService</a>, bytecodeService: <a href="../injectables/BytecodeInterpreterService.html">BytecodeInterpreterService</a>, islandService: <a href="../injectables/IslandService.html">IslandService</a>, codeService: <a href="../injectables/CodeService.html">CodeService</a>, dialog: MatDialog, storage: <a href="../undefineds/Storage.html">WebStorageService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:76</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>messageService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MessageService.html" target="_self" >MessageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>bytecodeService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/BytecodeInterpreterService.html" target="_self" >BytecodeInterpreterService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>islandService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/IslandService.html" target="_self" >IslandService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>codeService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CodeService.html" target="_self" >CodeService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>storage</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../miscellaneous/enumerations.html#Storage" target="_self" >WebStorageService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editorState"></a>
+                        <b>editorState</b>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="70" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:70</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="speed"></a>
+                        <b>speed</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>225</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:49</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editorStateChange"></a>
+                        <b>editorStateChange</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:68</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cleanupExecution"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            cleanupExecution
+                        </b>
+                        <a href="#cleanupExecution"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>cleanupExecution()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="193"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:193</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearCode"></a>
+                    <span class="name">
+                        <b>
+                            clearCode
+                        </b>
+                        <a href="#clearCode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clearCode()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="416"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:416</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="executingState"></a>
+                    <span class="name">
+                        <b>
+                            executingState
+                        </b>
+                        <a href="#executingState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>executingState()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="287"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:287</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="format"></a>
+                    <span class="name">
+                        <b>
+                            format
+                        </b>
+                        <a href="#format"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>format()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="280"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:280</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getCode"></a>
+                    <span class="name">
+                        <b>
+                            getCode
+                        </b>
+                        <a href="#getCode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getCode()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="379"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:379</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/EditorCode.html" target="_self" >EditorCode | null</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getHelpUrl"></a>
+                    <span class="name">
+                        <b>
+                            getHelpUrl
+                        </b>
+                        <a href="#getHelpUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getHelpUrl()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="333"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:333</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getSelectedEditor"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            getSelectedEditor
+                        </b>
+                        <a href="#getSelectedEditor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getSelectedEditor()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="406"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:406</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getTutorialUrl"></a>
+                    <span class="name">
+                        <b>
+                            getTutorialUrl
+                        </b>
+                        <a href="#getTutorialUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getTutorialUrl()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="337"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:337</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleException"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            handleException
+                        </b>
+                        <a href="#handleException"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>handleException(e: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="232"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:232</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>e</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hasCachedCode"></a>
+                    <span class="name">
+                        <b>
+                            hasCachedCode
+                        </b>
+                        <a href="#hasCachedCode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>hasCachedCode()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="341"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:341</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hasCachedConfig"></a>
+                    <span class="name">
+                        <b>
+                            hasCachedConfig
+                        </b>
+                        <a href="#hasCachedConfig"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>hasCachedConfig()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="356"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:356</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="highlightCurrentLine"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            highlightCurrentLine
+                        </b>
+                        <a href="#highlightCurrentLine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>highlightCurrentLine()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="205"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:205</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="indentSelection"></a>
+                    <span class="name">
+                        <b>
+                            indentSelection
+                        </b>
+                        <a href="#indentSelection"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>indentSelection()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="266"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:266</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadCode"></a>
+                    <span class="name">
+                        <b>
+                            loadCode
+                        </b>
+                        <a href="#loadCode"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>loadCode(codeStr: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="366"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:366</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>codeStr</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadCodeFromCache"></a>
+                    <span class="name">
+                        <b>
+                            loadCodeFromCache
+                        </b>
+                        <a href="#loadCodeFromCache"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>loadCodeFromCache()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="361"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:361</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadPreferencesFromCache"></a>
+                    <span class="name">
+                        <b>
+                            loadPreferencesFromCache
+                        </b>
+                        <a href="#loadPreferencesFromCache"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>loadPreferencesFromCache()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="374"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:374</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <b>
+                            ngAfterViewInit
+                        </b>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="86"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:86</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onEditorTabIndexChange"></a>
+                    <span class="name">
+                        <b>
+                            onEditorTabIndexChange
+                        </b>
+                        <a href="#onEditorTabIndexChange"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onEditorTabIndexChange(index: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="322"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:322</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>index</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pauseState"></a>
+                    <span class="name">
+                        <b>
+                            pauseState
+                        </b>
+                        <a href="#pauseState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pauseState()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="308"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:308</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="redo"></a>
+                    <span class="name">
+                        <b>
+                            redo
+                        </b>
+                        <a href="#redo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>redo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="252"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:252</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resetCache"></a>
+                    <span class="name">
+                        <b>
+                            resetCache
+                        </b>
+                        <a href="#resetCache"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>resetCache()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="398"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:398</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resetPreferences"></a>
+                    <span class="name">
+                        <b>
+                            resetPreferences
+                        </b>
+                        <a href="#resetPreferences"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>resetPreferences()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="402"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:402</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resetState"></a>
+                    <span class="name">
+                        <b>
+                            resetState
+                        </b>
+                        <a href="#resetState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>resetState()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="294"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:294</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="runContinious"></a>
+                    <span class="name">
+                        <b>
+                            runContinious
+                        </b>
+                        <a href="#runContinious"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>runContinious(context: CanvasRenderingContext2D)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="147"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:147</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>context</td>
+                                    <td>
+                                            <code>CanvasRenderingContext2D</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="runStepwise"></a>
+                    <span class="name">
+                        <b>
+                            runStepwise
+                        </b>
+                        <a href="#runStepwise"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>runStepwise(context: CanvasRenderingContext2D)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="106"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:106</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>context</td>
+                                    <td>
+                                            <code>CanvasRenderingContext2D</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="saveToLocal"></a>
+                    <span class="name">
+                        <b>
+                            saveToLocal
+                        </b>
+                        <a href="#saveToLocal"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>saveToLocal()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="390"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:390</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stopState"></a>
+                    <span class="name">
+                        <b>
+                            stopState
+                        </b>
+                        <a href="#stopState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>stopState()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="315"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:315</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toggleComment"></a>
+                    <span class="name">
+                        <b>
+                            toggleComment
+                        </b>
+                        <a href="#toggleComment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toggleComment()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="259"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:259</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="undo"></a>
+                    <span class="name">
+                        <b>
+                            undo
+                        </b>
+                        <a href="#undo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>undo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="245"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:245</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="unhighlightPreviousLine"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            unhighlightPreviousLine
+                        </b>
+                        <a href="#unhighlightPreviousLine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>unhighlightPreviousLine()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="222"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:222</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="unindentSelection"></a>
+                    <span class="name">
+                        <b>
+                            unindentSelection
+                        </b>
+                        <a href="#unindentSelection"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>unindentSelection()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="273"
+                            class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:273</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="codeService"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            codeService</b>
+                            <a href="#codeService"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../injectables/CodeService.html" target="_self" >CodeService</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="81" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:81</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="dialog"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            dialog</b>
+                            <a href="#dialog"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>MatDialog</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="82" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:82</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editorStateValue"></a>
+                        <span class="name">
+                            <b>
+                            editorStateValue</b>
+                            <a href="#editorStateValue"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/EditorState.html" target="_self" >EditorState</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    reset: true,
+    executing: false,
+    paused: false,
+    stopped: false
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:61</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="extensionMethodsEditor"></a>
+                        <span class="name">
+                            <b>
+                            extensionMethodsEditor</b>
+                            <a href="#extensionMethodsEditor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../components/EditorComponent.html" target="_self" >EditorComponent | null</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;extensionMethodsTextEditor&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:48</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="instructions"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            instructions</b>
+                            <a href="#instructions"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Array&lt;Instruction&gt;</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:58</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="languages"></a>
+                        <span class="name">
+                            <b>
+                            languages</b>
+                            <a href="#languages"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Language.html" target="_self" >Language[]</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    { viewValue: &#x27;JAVA/C++/C#&#x27;, value: SelectedLanguage.Java },
+    { viewValue: &#x27;VB.NET&#x27;, value: SelectedLanguage.Vb },
+    { viewValue: &#x27;PYTHON&#x27;, value: SelectedLanguage.Python }
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:51</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="mainMethodEditor"></a>
+                        <span class="name">
+                            <b>
+                            mainMethodEditor</b>
+                            <a href="#mainMethodEditor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../components/EditorComponent.html" target="_self" >EditorComponent | null</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <b>Decorators : </b>
+                            <br />
+                            <code>
+                                @ViewChild(&#x27;mainMethodTextEditor&#x27;, {static: true})<br />
+                            </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:47</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="previousInstruction"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            previousInstruction</b>
+                            <a href="#previousInstruction"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Instruction | null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:59</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectedTabIndex"></a>
+                        <span class="name">
+                            <b>
+                            selectedTabIndex</b>
+                            <a href="#selectedTabIndex"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>SelectedTab.Main</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:57</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="editorState"></a>
+                        <span class="name"><b>editorState</b><a href="#editorState"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>set</b><code>editorState(val)</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/editor-tabs/editor-tabs.component.ts:73</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Optional</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                            <td>val</td>
+                                                    
+                                                    
+                                                        <td>
+                                                                No
+                                                        </td>
+                                                        
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+</section>
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { AfterViewInit, Component, EventEmitter, Inject, Input, Output, ViewChild } from &#x27;@angular/core&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { LOCAL_STORAGE, WebStorageService } from &#x27;angular-webstorage-service&#x27;;
+import { BytecodeInterpreterService, RuntimeError } from &#x27;../bytecode-interpreter/bytecode-interpreter.service&#x27;;
+import { IslandService } from &#x27;../island.service&#x27;;
+import { MessageService, LoggingMessage, CompilationErrorMessage, RuntimeErrorMessage } from &#x27;../message.service&#x27;;
+import { EditorComponent } from &#x27;../editor/editor.component&#x27;;
+import { CodeService, SelectedLanguage, SelectedTab, EditorCode } from &#x27;../code.service&#x27;;
+import { Storage } from &#x27;../storage&#x27;;
+
+interface Language {
+  value: SelectedLanguage;
+  viewValue: string;
+}
+
+export interface EditorState {
+  reset: boolean;
+  executing: boolean;
+  paused: boolean;
+  stopped: boolean;
+}
+
+@Component({
+  selector: &#x27;app-editor-tabs&#x27;,
+  templateUrl: &#x27;./editor-tabs.component.html&#x27;,
+  styleUrls: [&#x27;./editor-tabs.component.scss&#x27;]
+})
+export class EditorTabsComponent implements AfterViewInit {
+  @ViewChild(&#x27;mainMethodTextEditor&#x27;, { static: true }) mainMethodEditor: EditorComponent | null &#x3D; null;
+  @ViewChild(&#x27;extensionMethodsTextEditor&#x27;, { static: true }) extensionMethodsEditor: EditorComponent | null &#x3D; null;
+  @Input() speed &#x3D; 225;
+
+  languages: Language[] &#x3D; [
+    { viewValue: &#x27;JAVA/C++/C#&#x27;, value: SelectedLanguage.Java },
+    { viewValue: &#x27;VB.NET&#x27;, value: SelectedLanguage.Vb },
+    { viewValue: &#x27;PYTHON&#x27;, value: SelectedLanguage.Python }
+  ];
+
+  selectedTabIndex &#x3D; SelectedTab.Main;
+  private instructions: Array&lt;Instruction&gt; &#x3D; [];
+  private previousInstruction: Instruction | null &#x3D; null;
+
+  editorStateValue: EditorState &#x3D; {
+    reset: true,
+    executing: false,
+    paused: false,
+    stopped: false
+  };
+  @Output()
+  editorStateChange &#x3D; new EventEmitter&lt;EditorState&gt;();
+  @Input()
+  get editorState() {
+    return this.editorStateValue;
+  }
+  set editorState(val) {
+    this.editorStateValue &#x3D; val;
+    this.editorStateChange.emit(this.editorStateValue);
+  }
+
+  constructor(private messageService: MessageService,
+    private bytecodeService: BytecodeInterpreterService,
+    private islandService: IslandService,
+    public codeService: CodeService,
+    public dialog: MatDialog,
+    @Inject(LOCAL_STORAGE) private storage: WebStorageService) {
+  }
+
+  ngAfterViewInit() {
+    setTimeout(() &#x3D;&gt; {
+      const editor &#x3D; this.getSelectedEditor();
+      if (editor) {
+        editor.refresh();
+        editor.focus();
+      }
+    });
+
+    this.codeService.getCursorPosition().subscribe((position) &#x3D;&gt; {
+      this.selectedTabIndex &#x3D; position.pane;
+      const editor &#x3D; this.getSelectedEditor();
+      if (editor) {
+        editor.refresh();
+        editor.focus();
+        editor.setCursor({ line: position.lnum - 1, ch: position.cnum });
+      }
+    });
+  }
+
+  runStepwise(context: CanvasRenderingContext2D) {
+    if (this.editorState.reset || this.instructions &#x3D;&#x3D;&#x3D; null) {
+      const editorCode &#x3D; this.getCode();
+      if (editorCode) {
+        this.messageService.clear();
+        this.messageService.addMessage(new LoggingMessage(&#x27;Compiling...&#x27;));
+        const jerooCode &#x3D; this.codeService.genCodeStr(editorCode);
+        const result &#x3D; JerooCompiler.compile(jerooCode);
+        if (result.successful &amp;&amp; result.bytecode) {
+          this.instructions &#x3D; result.bytecode;
+          this.bytecodeService.reset();
+          this.bytecodeService.jerooMap &#x3D; result.jerooMap;
+        } else {
+          if (result.error !&#x3D;&#x3D; undefined) {
+            this.messageService.addMessage(new CompilationErrorMessage(result.error));
+          }
+          return;
+        }
+      }
+    }
+    this.messageService.addMessage(new LoggingMessage(&#x27;Stepping...&#x27;));
+    this.executingState();
+    try {
+      if (this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor) {
+        this.mainMethodEditor.setReadOnly(true);
+        this.extensionMethodsEditor.setReadOnly(true);
+        this.bytecodeService.executeInstructionsUntilLNumChanges(this.instructions, this.islandService);
+        this.islandService.render(context);
+        if (this.bytecodeService.validInstruction(this.instructions)) {
+          this.pauseState();
+          this.highlightCurrentLine();
+        } else {
+          this.cleanupExecution();
+        }
+      }
+    } catch (e) {
+      this.islandService.render(context);
+      this.handleException(e);
+    }
+  }
+
+  runContinious(context: CanvasRenderingContext2D) {
+    if (this.editorState.reset || this.instructions &#x3D;&#x3D;&#x3D; null) {
+      const editorCode &#x3D; this.getCode();
+      if (editorCode) {
+        this.messageService.clear();
+        this.messageService.addMessage(new LoggingMessage(&#x27;Compiling...&#x27;));
+        const jerooCode &#x3D; this.codeService.genCodeStr(editorCode);
+        const result &#x3D; JerooCompiler.compile(jerooCode);
+        if (result.successful &amp;&amp; result.bytecode) {
+          this.instructions &#x3D; result.bytecode;
+          this.bytecodeService.reset();
+          this.bytecodeService.jerooMap &#x3D; result.jerooMap;
+        } else {
+          if (result.error) {
+            this.messageService.addMessage(new CompilationErrorMessage(result.error));
+          }
+          return;
+        }
+      }
+    }
+    this.messageService.addMessage(new LoggingMessage(&#x27;Running resumed...&#x27;));
+    const executeInstructions &#x3D; () &#x3D;&gt; {
+      try {
+        if (this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor) {
+          this.mainMethodEditor.setReadOnly(true);
+          this.extensionMethodsEditor.setReadOnly(true);
+          this.bytecodeService.executeInstructionsUntilLNumChanges(this.instructions, this.islandService);
+          this.islandService.render(context);
+          this.highlightCurrentLine();
+          if (this.bytecodeService.validInstruction(this.instructions)) {
+            if (!this.editorState.paused &amp;&amp; !this.editorState.stopped) {
+              setTimeout(executeInstructions, this.speed);
+            }
+          } else {
+            this.cleanupExecution();
+          }
+        }
+      } catch (e) {
+        this.islandService.render(context);
+        this.handleException(e);
+      }
+    };
+    setTimeout(executeInstructions, this.speed);
+    this.executingState();
+  }
+
+  private cleanupExecution() {
+    if (this.mainMethodEditor !&#x3D; null &amp;&amp; this.extensionMethodsEditor) {
+      this.mainMethodEditor.setReadOnly(false);
+      this.extensionMethodsEditor.setReadOnly(false);
+      this.unhighlightPreviousLine();
+      this.previousInstruction &#x3D; null;
+      this.messageService.clear();
+      this.messageService.addMessage(new LoggingMessage(&#x27;Program completed&#x27;));
+      this.stopState();
+    }
+  }
+
+  private highlightCurrentLine() {
+    this.unhighlightPreviousLine();
+    if (this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor &amp;&amp; this.bytecodeService.validInstruction(this.instructions)) {
+      const instruction &#x3D; this.bytecodeService.getCurrentInstruction(this.instructions);
+      if (instruction.e &#x3D;&#x3D;&#x3D; SelectedTab.Main || instruction.op &#x3D;&#x3D;&#x3D; &#x27;NEW&#x27;) {
+        this.mainMethodEditor.highlightLine(instruction.f);
+        this.selectedTabIndex &#x3D; SelectedTab.Main;
+      } else if (instruction.e &#x3D;&#x3D;&#x3D; SelectedTab.Extensions) {
+        this.extensionMethodsEditor.highlightLine(instruction.f);
+        this.selectedTabIndex &#x3D; SelectedTab.Extensions;
+      }
+      this.previousInstruction &#x3D; instruction;
+    } else {
+      this.previousInstruction &#x3D; null;
+    }
+  }
+
+  private unhighlightPreviousLine() {
+    if (this.previousInstruction &amp;&amp; this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor) {
+      if (this.previousInstruction.e &#x3D;&#x3D;&#x3D; SelectedTab.Main || this.previousInstruction.op &#x3D;&#x3D;&#x3D; &#x27;NEW&#x27;) {
+        this.mainMethodEditor.unhighlightLine(this.previousInstruction.f);
+      } else if (this.previousInstruction.e &#x3D;&#x3D;&#x3D; SelectedTab.Extensions) {
+        this.extensionMethodsEditor.unhighlightLine(this.previousInstruction.f);
+      }
+    }
+  }
+
+  private handleException(e: any) {
+    const runtimeError: RuntimeError &#x3D; e;
+    this.messageService.clear();
+    this.unhighlightPreviousLine();
+    this.selectedTabIndex &#x3D; runtimeError.pane_num;
+    const editor &#x3D; this.getSelectedEditor();
+    if (editor) {
+      editor.highlightErrorLine(runtimeError.line_num);
+      this.messageService.addMessage(new RuntimeErrorMessage(runtimeError.message, runtimeError.pane_num, runtimeError.line_num));
+      this.stopState();
+    }
+  }
+
+  undo() {
+    const editor &#x3D; this.getSelectedEditor();
+    if (editor) {
+      editor.undo();
+    }
+  }
+
+  redo() {
+    const editor &#x3D; this.getSelectedEditor();
+    if (editor) {
+      editor.redo();
+    }
+  }
+
+  toggleComment() {
+    const editor &#x3D; this.getSelectedEditor();
+    if (editor) {
+      editor.toggleComment();
+    }
+  }
+
+  indentSelection() {
+    const editor &#x3D; this.getSelectedEditor();
+    if (editor) {
+      editor.indentSelection();
+    }
+  }
+
+  unindentSelection() {
+    const editor &#x3D; this.getSelectedEditor();
+    if (editor) {
+      editor.unindentSelection();
+    }
+  }
+
+  format() {
+    const editor &#x3D; this.getSelectedEditor();
+    if (editor) {
+      editor.format();
+    }
+  }
+
+  executingState() {
+    this.editorState.executing &#x3D; true;
+    this.editorState.reset &#x3D; false;
+    this.editorState.paused &#x3D; false;
+    this.editorState.stopped &#x3D; false;
+  }
+
+  resetState() {
+    if (this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor) {
+      this.editorState.reset &#x3D; true;
+      this.editorState.executing &#x3D; false;
+      this.editorState.paused &#x3D; false;
+      this.editorState.stopped &#x3D; false;
+      this.messageService.clear();
+      this.bytecodeService.reset();
+      this.unhighlightPreviousLine();
+      this.mainMethodEditor.setReadOnly(false);
+      this.extensionMethodsEditor.setReadOnly(false);
+    }
+  }
+
+  pauseState() {
+    this.editorState.paused &#x3D; true;
+    this.editorState.executing &#x3D; false;
+    this.editorState.stopped &#x3D; false;
+    this.editorState.reset &#x3D; false;
+  }
+
+  stopState() {
+    this.editorState.stopped &#x3D; true;
+    this.editorState.executing &#x3D; false;
+    this.editorState.reset &#x3D; false;
+    this.editorState.paused &#x3D; false;
+  }
+
+  onEditorTabIndexChange(index: number) {
+    this.selectedTabIndex &#x3D; index;
+    const selectedEditor &#x3D; this.getSelectedEditor();
+    if (selectedEditor) {
+      setTimeout(() &#x3D;&gt; {
+        selectedEditor.refresh();
+        selectedEditor.focus();
+      });
+    }
+  }
+
+  getHelpUrl() {
+    return &#x60;/help/${this.codeService.selectedLanguage}&#x60;;
+  }
+
+  getTutorialUrl() {
+    return &#x60;/help/${this.codeService.selectedLanguage}/tutorial&#x60;;
+  }
+
+  hasCachedCode() {
+    const cachedCode &#x3D; this.storage.get(Storage.Source) as string;
+    const starterJavaCode &#x3D; &#x27;@Java@@&#x27;;
+    const starterVBCode &#x3D; &#x27;@VB@@&#x27;;
+    const starterPythonCode &#x3D; &#x27;@PYTHON@@&#x27;;
+    if (cachedCode) {
+      const cachedCodeNoWhitespace &#x3D; cachedCode.replace(/\s+/, &#x27;&#x27;).trim();
+      return !(cachedCodeNoWhitespace &#x3D;&#x3D;&#x3D; starterJavaCode
+        || cachedCodeNoWhitespace &#x3D;&#x3D;&#x3D; starterVBCode
+        || cachedCodeNoWhitespace &#x3D;&#x3D;&#x3D; starterPythonCode);
+    } else {
+      return false;
+    }
+  }
+
+  hasCachedConfig() {
+    const cachedConfigs &#x3D; this.storage.get(Storage.Preferences);
+    return cachedConfigs as boolean;
+  }
+
+  loadCodeFromCache() {
+    const code &#x3D; this.storage.get(Storage.Source);
+    this.loadCode(code);
+  }
+
+  loadCode(codeStr: string) {
+    const editorCode &#x3D; this.codeService.parseCodeFromStr(codeStr);
+    if (this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor) {
+      this.mainMethodEditor.setText(editorCode.mainMethodCode);
+      this.extensionMethodsEditor.setText(editorCode.extensionsMethodCode);
+    }
+  }
+
+  loadPreferencesFromCache() {
+    const config &#x3D; this.storage.get(Storage.Preferences);
+    this.codeService.prefrences &#x3D; config;
+  }
+
+  getCode(): EditorCode | null {
+    if (this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor) {
+      return {
+        extensionsMethodCode: this.extensionMethodsEditor.getText(),
+        mainMethodCode: this.mainMethodEditor.getText()
+      };
+    } else {
+      return null;
+    }
+  }
+
+  saveToLocal() {
+    const editorCode &#x3D; this.getCode();
+    if (editorCode) {
+      const codeStr &#x3D; this.codeService.genCodeStr(editorCode);
+      this.storage.set(Storage.Source, codeStr);
+    }
+  }
+
+  resetCache() {
+    this.storage.remove(Storage.Source);
+  }
+
+  resetPreferences() {
+    this.storage.remove(Storage.Preferences);
+  }
+
+  private getSelectedEditor() {
+    if (this.selectedTabIndex &#x3D;&#x3D;&#x3D; SelectedTab.Main) {
+      return this.mainMethodEditor;
+    } else if (this.selectedTabIndex &#x3D;&#x3D;&#x3D; SelectedTab.Extensions) {
+      return this.extensionMethodsEditor;
+    } else {
+      return null;
+    }
+  }
+
+  clearCode() {
+    if (this.mainMethodEditor &amp;&amp; this.extensionMethodsEditor &amp;&amp;
+      !this.mainMethodEditor.isReadOnly() &amp;&amp; !this.extensionMethodsEditor.isReadOnly()) {
+      this.mainMethodEditor.setText(&#x27;&#x27;);
+      this.extensionMethodsEditor.setText(&#x27;&#x27;);
+      this.resetCache();
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+--&gt;
+
+&lt;mat-tab-group color&#x3D;&quot;accent&quot; (selectedIndexChange)&#x3D;&quot;onEditorTabIndexChange($event)&quot; [selectedIndex]&#x3D;&quot;selectedTabIndex&quot;&gt;
+  &lt;mat-tab label&#x3D;&quot;Main Method&quot;&gt;
+    &lt;app-editor #mainMethodTextEditor (codeChange)&#x3D;&quot;saveToLocal()&quot; [lang]&#x3D;&quot;codeService.selectedLanguage&quot; [preferences]&#x3D;&quot;codeService.prefrences&quot;&gt;&lt;/app-editor&gt;
+  &lt;/mat-tab&gt;
+  &lt;mat-tab label&#x3D;&quot;Jeroo Methods&quot;&gt;
+    &lt;app-editor #extensionMethodsTextEditor (codeChange)&#x3D;&quot;saveToLocal()&quot; [lang]&#x3D;&quot;codeService.selectedLanguage&quot; [preferences]&#x3D;&quot;codeService.prefrences&quot;&gt;&lt;/app-editor&gt;
+  &lt;/mat-tab&gt;
+&lt;/mat-tab-group&gt;
+&lt;div class&#x3D;&quot;language-form-container&quot; fxLayout&#x3D;&quot;column&quot; fxLayoutAlign&#x3D;&quot;none center&quot;&gt;
+  &lt;div&gt;
+    &lt;mat-form-field&gt;
+      &lt;mat-select placeholder&#x3D;&quot;Current Language Style&quot; [(ngModel)]&#x3D;&quot;codeService.selectedLanguage&quot; (ngModelChange)&#x3D;&quot;saveToLocal()&quot;&gt;
+        &lt;mat-option *ngFor&#x3D;&quot;let language of languages&quot; [value]&#x3D;&quot;language.value&quot;&gt;
+          {{language.viewValue}}
+        &lt;/mat-option&gt;
+      &lt;/mat-select&gt;
+    &lt;/mat-form-field&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;messages-div&quot;&gt;
+  &lt;app-messages&gt;&lt;/app-messages&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./editor-tabs.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">/* **********************************************************************
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+********************************************************************** */
+
+.messages-div {
+  margin-left: 30px;
+}
+
+.language-form-container {
+  margin-top: 10px;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--Jeroo is a programming language learning tool for students and teachers.Copyright (C) <2019>  <Benjamin Konz>This program is free software: you can redistribute it and/or modifyit under the terms of the GNU Affero General Public License aspublished by the Free Software Foundation, either version 3 of theLicense, or (at your option) any later version.This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See theGNU Affero General Public License for more details.You should have received a copy of the GNU Affero General Public Licensealong with this program.  If not, see <http://www.gnu.org/licenses/>.--><mat-tab-group color="accent" (selectedIndexChange)="onEditorTabIndexChange($event)" [selectedIndex]="selectedTabIndex">  <mat-tab label="Main Method">    <app-editor #mainMethodTextEditor (codeChange)="saveToLocal()" [lang]="codeService.selectedLanguage" [preferences]="codeService.prefrences"></app-editor>  </mat-tab>  <mat-tab label="Jeroo Methods">    <app-editor #extensionMethodsTextEditor (codeChange)="saveToLocal()" [lang]="codeService.selectedLanguage" [preferences]="codeService.prefrences"></app-editor>  </mat-tab></mat-tab-group><div class="language-form-container" fxLayout="column" fxLayoutAlign="none center">  <div>    <mat-form-field>      <mat-select placeholder="Current Language Style" [(ngModel)]="codeService.selectedLanguage" (ngModelChange)="saveToLocal()">        <mat-option *ngFor="let language of languages" [value]="language.value">          {{language.viewValue}}        </mat-option>      </mat-select>    </mat-form-field>  </div></div><div class="messages-div">  <app-messages></app-messages></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CacheDialogComponent', 'selector': 'app-cache-dialog'},{'name': 'ChnageIslandSizeDialogComponent', 'selector': 'app-change-island-dialog-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CompilationErrorMessageComponent', 'selector': 'app-compilation-error-message'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'EditorComponent', 'selector': 'app-editor'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorTabsComponent', 'selector': 'app-editor-tabs'},{'name': 'HelpActionComponent', 'selector': 'app-help-action'},{'name': 'HelpBooleanComponent', 'selector': 'app-help-boolean'},{'name': 'HelpCompassComponent', 'selector': 'app-help-compass'},{'name': 'HelpConditionJavaComponent', 'selector': 'app-help-condition-java'},{'name': 'HelpConditionPythonComponent', 'selector': 'app-help-condition-python'},{'name': 'HelpConditionVBComponent', 'selector': 'app-help-condition-vb'},{'name': 'HelpControlStructJavaComponent', 'selector': 'app-help-control-struct-java'},{'name': 'HelpControlStructPythonComponent', 'selector': 'app-help-control-struct-python'},{'name': 'HelpControlStructVBComponent', 'selector': 'app-help-control-struct-vb'},{'name': 'HelpDirectionsComponent', 'selector': 'app-help-directions'},{'name': 'HelpGeneralJavaComponent', 'selector': 'app-help-general-java'},{'name': 'HelpGeneralPythonComponent', 'selector': 'app-help-general-python'},{'name': 'HelpGeneralVbComponent', 'selector': 'app-help-general-vb'},{'name': 'HelpInstantiationJavaComponent', 'selector': 'app-help-instantiation-java'},{'name': 'HelpInstantiationPythonComponent', 'selector': 'app-help-instantiation-python'},{'name': 'HelpInstantiationVbComponent', 'selector': 'app-help-instantiation-vb'},{'name': 'HelpMethodJavaComponent', 'selector': 'app-help-method-java'},{'name': 'HelpMethodPythonComponent', 'selector': 'app-help-method-python'},{'name': 'HelpMethodVbComponent', 'selector': 'app-help-method-vb'},{'name': 'HelpRelativeComponent', 'selector': 'app-help-relative'},{'name': 'HelpTutorialJavaComponent', 'selector': 'app-help-tutorial-java'},{'name': 'HelpTutorialPythonComponent', 'selector': 'app-help-tutorial-python'},{'name': 'HelpTutorialVbComponent', 'selector': 'app-help-tutorial-vb'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'JavaHelpComponent', 'selector': 'app-java-help'},{'name': 'JerooIslandComponent', 'selector': 'app-jeroo-island'},{'name': 'JerooStatusComponent', 'selector': 'app-jeroo-status'},{'name': 'LevelEditorComponent', 'selector': 'app-dashboard'},{'name': 'LoggingMessageComponent', 'selector': 'app-logging-message'},{'name': 'MessagesComponent', 'selector': 'app-messages'},{'name': 'PrintCodeComponent', 'selector': 'app-print-code'},{'name': 'PrintCodeDialogComponent', 'selector': 'app-print-code-dialog'},{'name': 'PrintIslandComponent', 'selector': 'app-print-island'},{'name': 'PrintLayoutComponent', 'selector': 'app-print-layout'},{'name': 'PythonHelpComponent', 'selector': 'app-python-help'},{'name': 'RuntimeErrorMessageComponent', 'selector': 'app-runtime-error-message'},{'name': 'VBHelpComponent', 'selector': 'app-vbhelp'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'EditorTabsComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'EditorTabsComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,561 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>HelpTutorialJavaComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/help/tutorial/help-tutorial-java/help-tutorial-java.component.ts</code>
+</p>
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-help-tutorial-java</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>../../help.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./help-tutorial-java.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/help/tutorial/help-tutorial-java/help-tutorial-java.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component } from &#x27;@angular/core&#x27;;
+
+@Component({
+  selector: &#x27;app-help-tutorial-java&#x27;,
+  templateUrl: &#x27;./help-tutorial-java.component.html&#x27;,
+  styleUrls: [&#x27;../../help.scss&#x27;]
+})
+export class HelpTutorialJavaComponent {
+  constructor() { }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!--
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+--&gt;
+
+&lt;div class&#x3D;&quot;help-content&quot;&gt;
+  &lt;h2&gt;Introduction&lt;/h2&gt;
+  This tutorial shows you how to create and run a simple Jeroo program. More examples and more information about using Jeroo can be found in the tutorial document &quot;Introduction to Jeroo&quot; which is available from Jeroo&#x27;s homepage (&lt;b&gt;www.jeroo.org&lt;/b&gt;).
+  &lt;br&gt;
+  &lt;br&gt;
+
+  &lt;h2&gt;Santong Island&lt;/h2&gt;
+  &lt;h3&gt;&lt;u&gt;Conceptual Model&lt;/u&gt;&lt;/h3&gt;
+  &lt;img src&#x3D;&quot;assets/IslandModel.gif&quot; alt&#x3D;&quot;Island grid model&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt; Santong Island is represented as a grid consisting of 24 rows and 24 columns.&lt;/li&gt;
+    &lt;li&gt;The rows are numbered from 0 to 23 starting in the north (top) row.&lt;/li&gt;
+    &lt;li&gt;The columns are numbered from 0 to 23 starting in the west (left) columm.&lt;/li&gt;
+    &lt;li&gt;The location of a cell is specified as a pair of the form (&lt;b&gt;r ,c)&lt;/b&gt;, where &lt;b&gt;r&lt;/b&gt; represents the row number of the cell, and &lt;b&gt;c&lt;/b&gt; represents its column number. For example, the pair (4,5) specifies the cell in row number 4 and column number 5.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;h3&gt;&lt;u&gt;Appearance on the Screen&lt;/u&gt;&lt;/h3&gt;
+  &lt;img src&#x3D;&quot;assets/IslandView.gif&quot; alt&#x3D;&quot;Island&quot;&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;h3&gt;&lt;u&gt;Practice&lt;/u&gt;&lt;/h3&gt;
+  Watch the &lt;b&gt;Cursor Location&lt;/b&gt; field &lt;img src&#x3D;&quot;assets/CursorLocationField.png&quot; alt&#x3D;&quot;Cursor location field&quot;&gt; change as you move the cursor over the island. This field displays the current location of the cursor on the island.
+  &lt;br&gt;
+  &lt;br&gt;
+
+  &lt;h2&gt;A Problem to Solve&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt; A Jeroo starts in the northwest corner of the island, facing East, with no flowers.&lt;/li&gt;
+    &lt;li&gt; There is a flower at location (0,4).&lt;/li&gt;
+    &lt;li&gt; There is a net at location (2.4).&lt;/li&gt;
+    &lt;li&gt; There are no other flowers, nets, Jeroos or water on the island.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  Write a program that will direct the Jeroo to pick the flower, use the flower to disable the net, and finish at the net&#x27;s starting location facing EAST.
+  &lt;br&gt;
+
+  &lt;img src&#x3D;&quot;assets/TutorialProblemH.gif&quot; alt&#x3D;&quot;Tutorial problem horizontal&quot;&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+
+  &lt;h2&gt;What Can A Jeroo Do?&lt;/h2&gt;
+  To solve this problem, we need to know about Jeroo&#x27;s action methods. A Jeroo can perform the seven separate actions listed below. To find out more about Jeroo&#x27;s action methods, click on the &quot;Help&quot; menu, select the &quot;Language Summary&quot; item, then select the &quot;Action Methods&quot; tab from the Language Summary window.
+  &lt;br&gt;&lt;br&gt;
+  A Jeroo can
+  &lt;ol type&#x3D;&quot;1&quot;&gt;
+    &lt;li&gt; hop one space&lt;/li&gt;
+    &lt;li&gt; hop several spaces&lt;/li&gt;
+    &lt;li&gt; turn left or right&lt;/li&gt;
+    &lt;li&gt; pick a flower from its current location&lt;/li&gt;
+    &lt;li&gt; plant a flower at its current location&lt;/li&gt;
+    &lt;li&gt; give a flower to an adjacent Jeroo&lt;/li&gt;
+    &lt;li&gt; toss a flower to disable a net&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;h2&gt;Solution Plan&lt;/h2&gt;
+  &lt;h3&gt;&lt;u&gt;Observations&lt;/u&gt;&lt;/h3&gt;
+  &lt;ol type&#x3D;&quot;1&quot;&gt;
+    &lt;li&gt; The Jeroo starts facing East.&lt;/li&gt;
+    &lt;li&gt; The flower is exactly 4 spaces ahead of the Jeroo.&lt;/li&gt;
+    &lt;li&gt; The net is exactly 2 spaces South of the flower.&lt;/li&gt;
+    &lt;li&gt; The Jeroo&#x27;s ending position will be the net&#x27;s original position.&lt;/li&gt;
+    &lt;li&gt; The Jeroo must be facing East at the end.&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;h3&gt;&lt;u&gt;Algorithm&lt;/u&gt;&lt;/h3&gt;
+
+  &lt;table cellpadding&#x3D;20&gt;
+    &lt;td&gt;
+      Let&#x27;s name the Jeroo Kim.
+      &lt;ul&gt;
+        &lt;li&gt; Instantiate (create) Kim&lt;/li&gt;
+        &lt;li&gt; Kim hop four spaces&lt;/li&gt;
+        &lt;li&gt; Kim pick the flower&lt;/li&gt;
+        &lt;li&gt; Kim turn right&lt;/li&gt;
+        &lt;li&gt; Kim hop once&lt;/li&gt;
+        &lt;li&gt; Kim toss the flower to disable the net&lt;/li&gt;
+        &lt;li&gt; Kim hop once&lt;/li&gt;
+        &lt;li&gt; Kim turn left&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+
+    &lt;td&gt;
+      &lt;img src&#x3D;&quot;assets/TutorialProblemV.gif&quot; alt&#x3D;&quot;Tutorial problem vertical&quot;&gt;
+    &lt;/td&gt;
+  &lt;/table&gt;
+
+
+  &lt;h2&gt;The Program&#x27;s Source Code&lt;/h2&gt;
+  It&#x27;s quite easy to convert the algorithm into a valid Jeroo program. The complete program is shown below.
+  &lt;br&gt;
+  &lt;br&gt;
+
+  &lt;table cellpadding&#x3D;&quot;20&quot;&gt;
+    &lt;td&gt;
+      &lt;table border&#x3D;&quot;2&quot; cellpadding&#x3D;&quot;5&quot; bgcolor&#x3D;&quot;#ffffff&quot;&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+
+            &lt;pre&gt;method main()
+&amp;#123;
+   //--- instantiate the Jeroo ---
+   Jeroo Kim &#x3D; new Jeroo();
+
+   //--- get the flower ---
+   Kim.hop(4);
+   Kim.pick();
+
+   //--- disable the net ---
+   Kim.turn(RIGHT);
+   Kim.hop();
+   Kim.toss();
+
+   //--- finish up ---
+   Kim.hop();
+   Kim.turn(LEFT);
+&amp;#125;  //&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; end main() &#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
+            &lt;/pre&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/td&gt;
+
+    &lt;td&gt;
+      &lt;img src&#x3D;&quot;assets/TutorialProblemV.gif&quot; alt&#x3D;&quot;Tutorial problem vertical&quot;&gt;
+    &lt;/td&gt;
+  &lt;/table&gt;
+  &lt;br&gt;
+
+  &lt;h2&gt;Writing The Program&lt;/h2&gt;
+  &lt;img src&#x3D;&quot;assets/SourceTabs.png&quot; alt&#x3D;&quot;Tabbed panes in Jeroo&#x27;s window&quot;&gt;
+  &lt;br&gt;
+  This portion of the tutorial uses the tab panes in the left half of the Jeroo frame.
+  &lt;br&gt;
+  &lt;br&gt;
+
+  Normally, you would type the entire program into the &quot;main method&quot; tab in the left half of the Jeroo window. There are three ways to get this tutorial program into the &quot;main method&quot; tab.
+  &lt;ol type&#x3D;&quot;1&quot;&gt;
+    &lt;li&gt; Click on the &quot;main method&quot; tab and type the code as it appears above. The capitalization and punctuation are important.&lt;/li&gt;
+    &lt;li&gt; Copy the program above and paste it into the &quot;main method&quot; tab.&lt;/li&gt;
+    &lt;li&gt; Click on the &lt;b&gt;Copy The Code&lt;/b&gt; button below.&lt;/li&gt;
+  &lt;/ol&gt;
+  The first method is good practice, but you may want to use one of the other two.
+  &lt;br&gt;
+  &lt;br&gt;
+
+  &lt;h2&gt;Editing The Island&lt;/h2&gt;
+  &lt;img src&#x3D;&quot;assets/IslandEditMenu.png&quot; alt&#x3D;&quot;Island edit menu&quot;&gt;
+  &lt;br&gt;
+  This portion of the tutorial uses the &lt;b&gt;Islan&lt;u&gt;d&lt;/u&gt; Edit&lt;/b&gt; menu and/or the corresponding toolbar buttons.
+  &lt;br&gt;
+  &lt;br&gt;
+  You need to use the mouse (or other pointing device) to place flowers, nets, and water on the island.
+
+  &lt;ul&gt;
+    &lt;li&gt; To add or remove flowers, either click the &lt;img src&#x3D;&quot;assets/images/flower.jpg&quot; alt&#x3D;&quot;yellow flower&quot;&gt; button on Jeroo&#x27;s toolbar, or select &lt;b&gt;&lt;u&gt;P&lt;/u&gt;lant Flowers&lt;/b&gt; from the &lt;b&gt;Islan&lt;u&gt;d&lt;/u&gt; Edit &lt;/b&gt;menu.&lt;/li&gt;
+    &lt;li&gt; To add or remove nets, either click the &lt;img src&#x3D;&quot;assets/images/net.jpg&quot; alt&#x3D;&quot;red net&quot;&gt; button on Jeroo&#x27;s toolbar, or select &lt;b&gt;Set &lt;u&gt;N&lt;/u&gt;ets&lt;/b&gt; from the &lt;b&gt;Islan&lt;u&gt;d&lt;/u&gt; Edit &lt;/b&gt;menu.&lt;/li&gt;
+    &lt;li&gt; To add or remove water, either click the &lt;img src&#x3D;&quot;assets/images/water.jpg&quot; alt&#x3D;&quot;blue square&quot;&gt; button on Jeroo&#x27;s toolbar, or select &lt;b&gt;Add &lt;u&gt;W&lt;/u&gt;ater&lt;/b&gt; from the &lt;b&gt;Islan&lt;u&gt;d&lt;/u&gt; Edit &lt;/b&gt;menu.&lt;/li&gt;
+  &lt;/ul&gt;
+  The cursor always indicates the kind of object that you are adding to the island.
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;ul&gt;
+    &lt;li&gt; Click the left mouse button to place an object in the current cell, replacing anything that might be there already.&lt;/li&gt;
+    &lt;li&gt; Hold the left mouse button down and move the mouse to place several adjacent objects on the island.&lt;/li&gt;
+    &lt;li&gt; Click the right mouse button to remove an object from the current cell.&lt;/li&gt;
+    &lt;li&gt; Hold the right mouse button down and move the mouse to remove several objects from the island.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;h3&gt;&lt;u&gt;Practice&lt;/u&gt;&lt;/h3&gt;
+  Practice placing and removing flowers, nets, and water until you are comfortable with the process. Notice that the Cursor Location field under the island always shows you the cursor&#x27;s location. This makes it easier to place objects in specific locations.
+  &lt;br&gt;
+  &lt;br&gt;
+  When you are finished, clear the island by pressing the &lt;img src&#x3D;&quot;assets/ClearEnv.png&quot; alt&#x3D;&quot;last in Island Edit group&quot;&gt; button on Jeroo&#x27;s toolbar or by selecting &lt;b&gt;&lt;u&gt;C&lt;/u&gt;lear Island&lt;/b&gt; from the &lt;b&gt;Islan&lt;u&gt;d&lt;/u&gt; Edit &lt;/b&gt;menu.
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;h3&gt;&lt;u&gt;Do It For Real&lt;/u&gt;&lt;/h3&gt;
+
+  &lt;table cellpadding&#x3D;&quot;20&quot;&gt;
+    &lt;td&gt;
+      Configure the island for this problem.
+      &lt;ul&gt;
+        &lt;li&gt; Clear the island.&lt;/li&gt;
+        &lt;li&gt; Place a single flower at location (0,4).&lt;/li&gt;
+        &lt;li&gt; Place a single net at location (2,4).&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+      &lt;img src&#x3D;&quot;assets/TutorialSetup.gif&quot; alt&#x3D;&quot;Island map with flower and net&quot; align&#x3D;&quot;right&quot;&gt;
+    &lt;/td&gt;
+  &lt;/table&gt;
+
+
+  &lt;br&gt;
+  &lt;h2&gt;Running The Program&lt;/h2&gt;
+  &lt;img src&#x3D;&quot;assets/RunMenu.png&quot; alt&#x3D;&quot;Run menu&quot;&gt;
+  &lt;br&gt;
+  This portion of the tutorial uses the &lt;b&gt;&lt;u&gt;R&lt;/u&gt;un&lt;/b&gt; menu and/or the corresponding toolbar buttons. We will study ways to run a program, and we will see what happens when a Jeroo hops into a net or into the water.
+  &lt;br&gt;
+  &lt;br&gt;
+  Make sure that the program is identical to that shown above. The source code, but not the island, is automatically saved each time you run a program. Since you have not yet saved the program, you will be asked to provide a file name the first time you run it. This is a one-time event.
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;h3&gt;&lt;u&gt;Basic Running&lt;/u&gt;&lt;/h3&gt;
+  Click the &lt;img src&#x3D;&quot;assets/Run.png&quot; alt&#x3D;&quot;button with two triangles&quot;&gt; button on Jeroo&#x27;s toolbar or select &lt;b&gt;Run &lt;u&gt;C&lt;/u&gt;ontinuously&lt;/b&gt; from the &lt;b&gt;&lt;u&gt;R&lt;/u&gt;un&lt;/b&gt; menu to run the program.
+  &lt;br&gt;
+  &lt;br&gt;
+  There are several things to notice when you run the program.
+  &lt;ul&gt;
+    &lt;li&gt; Each Jeroo is represented by an arrow that shows the Jeroo&#x27;s location and direction. A program can have up to four Jeroo&#x27;s. Each is represented by an arrow with a unique shape and color.&lt;/li&gt;
+    &lt;li&gt; A status panel under the island keeps track of each Jeroo, showing its name, its direction, and the number of flowers in its pouch. In our tutorial program, this panel has the following appearance just before Kim tosses a flower into the net. &lt;img src&#x3D;&quot;assets/StatusView.png&quot; alt&#x3D;&quot;Kim status&quot;&gt;.&lt;/li&gt;
+    &lt;li&gt; Each statement in the program is highlighted just before it is executed.&lt;/li&gt;
+    &lt;li&gt; A message area under the source code shows the status of the program.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  When you are finished, click the &lt;img src&#x3D;&quot;assets/Reset.png&quot; alt&#x3D;&quot;button with triangle pointing to vertical line&quot;&gt; button on Jeroo&#x27;s toolbar, or select &lt;b&gt;Reset&lt;/b&gt; from the &lt;b&gt;&lt;u&gt;R&lt;/u&gt;un&lt;/b&gt; menu to reset the program and restore the island to its starting appearance.
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;h3&gt;&lt;u&gt;Changing Speeds&lt;/u&gt;&lt;/h3&gt;
+  &lt;img src&#x3D;&quot;assets/SpeedMenu.png&quot; alt&#x3D;&quot;Speed Menu&quot;&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  The &lt;b&gt;R&lt;u&gt;u&lt;/u&gt;n Speed&lt;/b&gt; menu and its associated slider can be used to change the speed at which the program executes. Try running the program at different speeds. Be sure to reset the program after each run.
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;h3&gt;&lt;u&gt;Running Stepwise&lt;/u&gt;&lt;/h3&gt;
+  Sometimes it helps to run the program one step at a time. This can be useful when we are trying to learn a new feature of the program or trying to locate the source of an error.
+  &lt;br&gt;
+  &lt;br&gt;
+  Click the &lt;img src&#x3D;&quot;assets/Step.png&quot; alt&#x3D;&quot;button with one large triangle&quot;&gt; button or select &lt;b&gt;Run &lt;u&gt;S&lt;/u&gt;tepwise&lt;/b&gt; from the &lt;b&gt;&lt;u&gt;R&lt;/u&gt;un&lt;/b&gt; menu to start running the program step-by-step.
+  &lt;ul&gt;
+    &lt;li&gt; The first time you press the &quot;stepwise&quot; button, the first statement to be executed will be highlighted.&lt;/li&gt;
+    &lt;li&gt; Each time after the first, the highlighted line will be executed, and the next statement to execute will be highlighted&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;br&gt;
+
+  &lt;h3&gt;&lt;u&gt;Changing Modes and Speeds&lt;/u&gt;&lt;/h3&gt;
+  Jeroo allows you to switch back and forth between running stepwise and continuously. Jeroo also allows you to stop a program or change speeds while a program is running.
+  &lt;ul&gt;
+    &lt;li&gt; Click the &lt;img src&#x3D;&quot;assets/Run.png&quot; alt&#x3D;&quot;button with two triangles&quot;&gt; button on Jeroo&#x27;s toolbar or select &lt;b&gt;Run &lt;u&gt;C&lt;/u&gt;ontinuously&lt;/b&gt; from the &lt;b&gt;&lt;u&gt;R&lt;/u&gt;un&lt;/b&gt; menu to switch from running stepwise to continuously.&lt;/li&gt;
+    &lt;li&gt; Click the &lt;img src&#x3D;&quot;assets/PauseRun.png&quot; alt&#x3D;&quot;button with two vertical bars&quot;&gt; button on Jeroo&#x27;s toolbar or select &lt;b&gt;&lt;u&gt;P&lt;/u&gt;ause&lt;/b&gt; from the &lt;b&gt;&lt;u&gt;R&lt;/u&gt;un&lt;/b&gt; menu to pause a program that is running continuously. After a program has been paused, you can switch to running stepwise or change speeds and resume running continuously at the new speed.&lt;/li&gt;
+    &lt;li&gt; Click the &lt;img src&#x3D;&quot;assets/StopRun.png&quot; alt&#x3D;&quot;button with red square&quot;&gt; button on Jeroo&#x27;s toolbar or select &lt;b&gt;S&lt;u&gt;t&lt;/u&gt;op Run&lt;/b&gt; from the &lt;b&gt;&lt;u&gt;R&lt;/u&gt;un&lt;/b&gt; menu to stop a program.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;br&gt;
+
+  &lt;h3&gt;&lt;u&gt;Water and Nets&lt;/u&gt;&lt;/h3&gt;
+  This activity shows what happens when a Jeroo hops into a net or into the water. As you learn more about Jeroo, you will learn how to detect and avoid nets, water, and other Jeroos.
+  &lt;ul&gt;
+    &lt;li&gt; Place a net at location (0,2) on the island. Run the program and watch what happens. Notice that an error message appears in the area under the source code tabs.&lt;/li&gt;
+    &lt;li&gt; Replace the net with water. Run the program again and watch what happens. Be sure to read the error message.&lt;/li&gt;
+    &lt;li&gt; A similar thing happens when one Jeroo bumps into another.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+
+  &lt;h2&gt;What&#x27;s Next?&lt;/h2&gt;
+  If you want to learn more about programming with Jeroo, work through the tutorial document &quot;Introduction to Jeroo&quot; which is available from Jeroo&#x27;s homepage (&lt;b&gt;www.jeroo.org&lt;/b&gt;).
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>../../help.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">/* **********************************************************************
+Jeroo is a programming language learning tool for students and teachers.
+Copyright (C) &lt;2019&gt;  &lt;Benjamin Konz&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+********************************************************************** */
+
+.help-content {
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!--Jeroo is a programming language learning tool for students and teachers.Copyright (C) <2019>  <Benjamin Konz>This program is free software: you can redistribute it and/or modifyit under the terms of the GNU Affero General Public License aspublished by the Free Software Foundation, either version 3 of theLicense, or (at your option) any later version.This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See theGNU Affero General Public License for more details.You should have received a copy of the GNU Affero General Public Licensealong with this program.  If not, see <http://www.gnu.org/licenses/>.--><div class="help-content">  <h2>Introduction</h2>  This tutorial shows you how to create and run a simple Jeroo program. More examples and more information about using Jeroo can be found in the tutorial document "Introduction to Jeroo" which is available from Jeroo\'s homepage (<b>www.jeroo.org</b>).  <br>  <br>  <h2>Santong Island</h2>  <h3><u>Conceptual Model</u></h3>  <img src="assets/IslandModel.gif" alt="Island grid model">  <ul>    <li> Santong Island is represented as a grid consisting of 24 rows and 24 columns.</li>    <li>The rows are numbered from 0 to 23 starting in the north (top) row.</li>    <li>The columns are numbered from 0 to 23 starting in the west (left) columm.</li>    <li>The location of a cell is specified as a pair of the form (<b>r ,c)</b>, where <b>r</b> represents the row number of the cell, and <b>c</b> represents its column number. For example, the pair (4,5) specifies the cell in row number 4 and column number 5.</li>  </ul>  <h3><u>Appearance on the Screen</u></h3>  <img src="assets/IslandView.gif" alt="Island">  <br>  <br>  <h3><u>Practice</u></h3>  Watch the <b>Cursor Location</b> field <img src="assets/CursorLocationField.png" alt="Cursor location field"> change as you move the cursor over the island. This field displays the current location of the cursor on the island.  <br>  <br>  <h2>A Problem to Solve</h2>  <ul>    <li> A Jeroo starts in the northwest corner of the island, facing East, with no flowers.</li>    <li> There is a flower at location (0,4).</li>    <li> There is a net at location (2.4).</li>    <li> There are no other flowers, nets, Jeroos or water on the island.</li>  </ul>  Write a program that will direct the Jeroo to pick the flower, use the flower to disable the net, and finish at the net\'s starting location facing EAST.  <br>  <img src="assets/TutorialProblemH.gif" alt="Tutorial problem horizontal">  <br>  <br>  <h2>What Can A Jeroo Do?</h2>  To solve this problem, we need to know about Jeroo\'s action methods. A Jeroo can perform the seven separate actions listed below. To find out more about Jeroo\'s action methods, click on the "Help" menu, select the "Language Summary" item, then select the "Action Methods" tab from the Language Summary window.  <br><br>  A Jeroo can  <ol type="1">    <li> hop one space</li>    <li> hop several spaces</li>    <li> turn left or right</li>    <li> pick a flower from its current location</li>    <li> plant a flower at its current location</li>    <li> give a flower to an adjacent Jeroo</li>    <li> toss a flower to disable a net</li>  </ol>  <h2>Solution Plan</h2>  <h3><u>Observations</u></h3>  <ol type="1">    <li> The Jeroo starts facing East.</li>    <li> The flower is exactly 4 spaces ahead of the Jeroo.</li>    <li> The net is exactly 2 spaces South of the flower.</li>    <li> The Jeroo\'s ending position will be the net\'s original position.</li>    <li> The Jeroo must be facing East at the end.</li>  </ol>  <h3><u>Algorithm</u></h3>  <table cellpadding=20>    <td>      Let\'s name the Jeroo Kim.      <ul>        <li> Instantiate (create) Kim</li>        <li> Kim hop four spaces</li>        <li> Kim pick the flower</li>        <li> Kim turn right</li>        <li> Kim hop once</li>        <li> Kim toss the flower to disable the net</li>        <li> Kim hop once</li>        <li> Kim turn left</li>      </ul>    </td>    <td>      <img src="assets/TutorialProblemV.gif" alt="Tutorial problem vertical">    </td>  </table>  <h2>The Program\'s Source Code</h2>  It\'s quite easy to convert the algorithm into a valid Jeroo program. The complete program is shown below.  <br>  <br>  <table cellpadding="20">    <td>      <table border="2" cellpadding="5" bgcolor="#ffffff">        <tr>          <td>            <pre>method main()&#123;   //--- instantiate the Jeroo ---   Jeroo Kim = new Jeroo();   //--- get the flower ---   Kim.hop(4);   Kim.pick();   //--- disable the net ---   Kim.turn(RIGHT);   Kim.hop();   Kim.toss();   //--- finish up ---   Kim.hop();   Kim.turn(LEFT);&#125;  //===== end main() =====            </pre>          </td>        </tr>      </table>    </td>    <td>      <img src="assets/TutorialProblemV.gif" alt="Tutorial problem vertical">    </td>  </table>  <br>  <h2>Writing The Program</h2>  <img src="assets/SourceTabs.png" alt="Tabbed panes in Jeroo\'s window">  <br>  This portion of the tutorial uses the tab panes in the left half of the Jeroo frame.  <br>  <br>  Normally, you would type the entire program into the "main method" tab in the left half of the Jeroo window. There are three ways to get this tutorial program into the "main method" tab.  <ol type="1">    <li> Click on the "main method" tab and type the code as it appears above. The capitalization and punctuation are important.</li>    <li> Copy the program above and paste it into the "main method" tab.</li>    <li> Click on the <b>Copy The Code</b> button below.</li>  </ol>  The first method is good practice, but you may want to use one of the other two.  <br>  <br>  <h2>Editing The Island</h2>  <img src="assets/IslandEditMenu.png" alt="Island edit menu">  <br>  This portion of the tutorial uses the <b>Islan<u>d</u> Edit</b> menu and/or the corresponding toolbar buttons.  <br>  <br>  You need to use the mouse (or other pointing device) to place flowers, nets, and water on the island.  <ul>    <li> To add or remove flowers, either click the <img src="assets/images/flower.jpg" alt="yellow flower"> button on Jeroo\'s toolbar, or select <b><u>P</u>lant Flowers</b> from the <b>Islan<u>d</u> Edit </b>menu.</li>    <li> To add or remove nets, either click the <img src="assets/images/net.jpg" alt="red net"> button on Jeroo\'s toolbar, or select <b>Set <u>N</u>ets</b> from the <b>Islan<u>d</u> Edit </b>menu.</li>    <li> To add or remove water, either click the <img src="assets/images/water.jpg" alt="blue square"> button on Jeroo\'s toolbar, or select <b>Add <u>W</u>ater</b> from the <b>Islan<u>d</u> Edit </b>menu.</li>  </ul>  The cursor always indicates the kind of object that you are adding to the island.  <br>  <br>  <ul>    <li> Click the left mouse button to place an object in the current cell, replacing anything that might be there already.</li>    <li> Hold the left mouse button down and move the mouse to place several adjacent objects on the island.</li>    <li> Click the right mouse button to remove an object from the current cell.</li>    <li> Hold the right mouse button down and move the mouse to remove several objects from the island.</li>  </ul>  <h3><u>Practice</u></h3>  Practice placing and removing flowers, nets, and water until you are comfortable with the process. Notice that the Cursor Location field under the island always shows you the cursor\'s location. This makes it easier to place objects in specific locations.  <br>  <br>  When you are finished, clear the island by pressing the <img src="assets/ClearEnv.png" alt="last in Island Edit group"> button on Jeroo\'s toolbar or by selecting <b><u>C</u>lear Island</b> from the <b>Islan<u>d</u> Edit </b>menu.  <br>  <br>  <h3><u>Do It For Real</u></h3>  <table cellpadding="20">    <td>      Configure the island for this problem.      <ul>        <li> Clear the island.</li>        <li> Place a single flower at location (0,4).</li>        <li> Place a single net at location (2,4).</li>      </ul>    </td>    <td>      <img src="assets/TutorialSetup.gif" alt="Island map with flower and net" align="right">    </td>  </table>  <br>  <h2>Running The Program</h2>  <img src="assets/RunMenu.png" alt="Run menu">  <br>  This portion of the tutorial uses the <b><u>R</u>un</b> menu and/or the corresponding toolbar buttons. We will study ways to run a program, and we will see what happens when a Jeroo hops into a net or into the water.  <br>  <br>  Make sure that the program is identical to that shown above. The source code, but not the island, is automatically saved each time you run a program. Since you have not yet saved the program, you will be asked to provide a file name the first time you run it. This is a one-time event.  <br>  <br>  <h3><u>Basic Running</u></h3>  Click the <img src="assets/Run.png" alt="button with two triangles"> button on Jeroo\'s toolbar or select <b>Run <u>C</u>ontinuously</b> from the <b><u>R</u>un</b> menu to run the program.  <br>  <br>  There are several things to notice when you run the program.  <ul>    <li> Each Jeroo is represented by an arrow that shows the Jeroo\'s location and direction. A program can have up to four Jeroo\'s. Each is represented by an arrow with a unique shape and color.</li>    <li> A status panel under the island keeps track of each Jeroo, showing its name, its direction, and the number of flowers in its pouch. In our tutorial program, this panel has the following appearance just before Kim tosses a flower into the net. <img src="assets/StatusView.png" alt="Kim status">.</li>    <li> Each statement in the program is highlighted just before it is executed.</li>    <li> A message area under the source code shows the status of the program.</li>  </ul>  When you are finished, click the <img src="assets/Reset.png" alt="button with triangle pointing to vertical line"> button on Jeroo\'s toolbar, or select <b>Reset</b> from the <b><u>R</u>un</b> menu to reset the program and restore the island to its starting appearance.  <br>  <br>  <h3><u>Changing Speeds</u></h3>  <img src="assets/SpeedMenu.png" alt="Speed Menu">  <br>  <br>  The <b>R<u>u</u>n Speed</b> menu and its associated slider can be used to change the speed at which the program executes. Try running the program at different speeds. Be sure to reset the program after each run.  <br>  <br>  <h3><u>Running Stepwise</u></h3>  Sometimes it helps to run the program one step at a time. This can be useful when we are trying to learn a new feature of the program or trying to locate the source of an error.  <br>  <br>  Click the <img src="assets/Step.png" alt="button with one large triangle"> button or select <b>Run <u>S</u>tepwise</b> from the <b><u>R</u>un</b> menu to start running the program step-by-step.  <ul>    <li> The first time you press the "stepwise" button, the first statement to be executed will be highlighted.</li>    <li> Each time after the first, the highlighted line will be executed, and the next statement to execute will be highlighted</li>  </ul>  <br>  <h3><u>Changing Modes and Speeds</u></h3>  Jeroo allows you to switch back and forth between running stepwise and continuously. Jeroo also allows you to stop a program or change speeds while a program is running.  <ul>    <li> Click the <img src="assets/Run.png" alt="button with two triangles"> button on Jeroo\'s toolbar or select <b>Run <u>C</u>ontinuously</b> from the <b><u>R</u>un</b> menu to switch from running stepwise to continuously.</li>    <li> Click the <img src="assets/PauseRun.png" alt="button with two vertical bars"> button on Jeroo\'s toolbar or select <b><u>P</u>ause</b> from the <b><u>R</u>un</b> menu to pause a program that is running continuously. After a program has been paused, you can switch to running stepwise or change speeds and resume running continuously at the new speed.</li>    <li> Click the <img src="assets/StopRun.png" alt="button with red square"> button on Jeroo\'s toolbar or select <b>S<u>t</u>op Run</b> from the <b><u>R</u>un</b> menu to stop a program.</li>  </ul>  <br>  <h3><u>Water and Nets</u></h3>  This activity shows what happens when a Jeroo hops into a net or into the water. As you learn more about Jeroo, you will learn how to detect and avoid nets, water, and other Jeroos.  <ul>    <li> Place a net at location (0,2) on the island. Run the program and watch what happens. Notice that an error message appears in the area under the source code tabs.</li>    <li> Replace the net with water. Run the program again and watch what happens. Be sure to read the error message.</li>    <li> A similar thing happens when one Jeroo bumps into another.</li>  </ul>  <br>  <br>  <h2>What\'s Next?</h2>  If you want to learn more about programming with Jeroo, work through the tutorial document "Introduction to Jeroo" which is available from Jeroo\'s homepage (<b>www.jeroo.org</b>).</div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CacheDialogComponent', 'selector': 'app-cache-dialog'},{'name': 'ChnageIslandSizeDialogComponent', 'selector': 'app-change-island-dialog-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CodeSaveDialogComponent', 'selector': 'app-code-save-dialog'},{'name': 'CompilationErrorMessageComponent', 'selector': 'app-compilation-error-message'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAboutComponent', 'selector': 'app-dashboard-dialog-about'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogAwardsComponent', 'selector': 'app-dashboard-dialog-awards'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogCopyrightComponent', 'selector': 'app-dashboard-dialog-copyright'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'DashboardDialogHistoryComponent', 'selector': 'app-dashboard-dialog-history'},{'name': 'EditorComponent', 'selector': 'app-editor'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorPreferencesComponent', 'selector': 'app-editor-preferences'},{'name': 'EditorTabsComponent', 'selector': 'app-editor-tabs'},{'name': 'HelpActionComponent', 'selector': 'app-help-action'},{'name': 'HelpBooleanComponent', 'selector': 'app-help-boolean'},{'name': 'HelpCompassComponent', 'selector': 'app-help-compass'},{'name': 'HelpConditionJavaComponent', 'selector': 'app-help-condition-java'},{'name': 'HelpConditionPythonComponent', 'selector': 'app-help-condition-python'},{'name': 'HelpConditionVBComponent', 'selector': 'app-help-condition-vb'},{'name': 'HelpControlStructJavaComponent', 'selector': 'app-help-control-struct-java'},{'name': 'HelpControlStructPythonComponent', 'selector': 'app-help-control-struct-python'},{'name': 'HelpControlStructVBComponent', 'selector': 'app-help-control-struct-vb'},{'name': 'HelpDirectionsComponent', 'selector': 'app-help-directions'},{'name': 'HelpGeneralJavaComponent', 'selector': 'app-help-general-java'},{'name': 'HelpGeneralPythonComponent', 'selector': 'app-help-general-python'},{'name': 'HelpGeneralVbComponent', 'selector': 'app-help-general-vb'},{'name': 'HelpInstantiationJavaComponent', 'selector': 'app-help-instantiation-java'},{'name': 'HelpInstantiationPythonComponent', 'selector': 'app-help-instantiation-python'},{'name': 'HelpInstantiationVbComponent', 'selector': 'app-help-instantiation-vb'},{'name': 'HelpMethodJavaComponent', 'selector': 'app-help-method-java'},{'name': 'HelpMethodPythonComponent', 'selector': 'app-help-method-python'},{'name': 'HelpMethodVbComponent', 'selector': 'app-help-method-vb'},{'name': 'HelpRelativeComponent', 'selector': 'app-help-relative'},{'name': 'HelpTutorialJavaComponent', 'selector': 'app-help-tutorial-java'},{'name': 'HelpTutorialPythonComponent', 'selector': 'app-help-tutorial-python'},{'name': 'HelpTutorialVbComponent', 'selector': 'app-help-tutorial-vb'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'IslandSaveDialogComponent', 'selector': 'app-island-save-dialog'},{'name': 'JavaHelpComponent', 'selector': 'app-java-help'},{'name': 'JerooIslandComponent', 'selector': 'app-jeroo-island'},{'name': 'JerooStatusComponent', 'selector': 'app-jeroo-status'},{'name': 'LevelEditorComponent', 'selector': 'app-dashboard'},{'name': 'LoggingMessageComponent', 'selector': 'app-logging-message'},{'name': 'MessagesComponent', 'selector': 'app-messages'},{'name': 'PrintCodeComponent', 'selector': 'app-print-code'},{'name': 'PrintCodeDialogComponent', 'selector': 'app-print-code-dialog'},{'name': 'PrintIslandComponent', 'selector': 'app-print-island'},{'name': 'PrintLayoutComponent', 'selector': 'app-print-layout'},{'name': 'PythonHelpComponent', 'selector': 'app-python-help'},{'name': 'RuntimeErrorMessageComponent', 'selector': 'app-runtime-error-message'},{'name': 'VBHelpComponent', 'selector': 'app-vbhelp'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'HelpTutorialJavaComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'HelpTutorialJavaComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

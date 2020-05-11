@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>jeroo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	      <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="./" class="navbar-brand">jeroo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content getting-started">
+                   <div class="content-data">
+
+<h1 id="jeroo-a-tool-for-learning-object-oriented-programming">Jeroo: A tool for learning Object-Oriented Programming</h1>
+<p>Play now! <a href="https://www.jeroo.org/beta">jeroo.org/beta</a></p>
+<p>More info: <a href="https://www.jeroo.org">jeroo.org</a></p>
+<h2 id="what-is-jeroo">What is Jeroo?</h2>
+<p>Jeroo is a text-based coding environment designed to help novices master the basic mechanics of object oriented programming. It features a limited syntax to emphasize basic computational thinking skills like problem decomposition (ie, breaking things down into subtasks), the semantics of control structures like loops and ifs, and use of objects and state to solve problems. </p>
+<p> Solving problems involves writing a program that helps one or more kangaroo-like objects (ie, Jeroos) hop around an island while avoiding the nets set by animal collectors to achieve an objective. Along the way, Jeroos can pick up flowers growing on the island and use them to disarm nets. Jeroos must be careful to also stay out of the water, since they&#39;ve never developed an ability to swim.</p>
+<p>Jeroo has been used in high school and university classrooms for nearly 20 years, and many teachers find that it provides a great transition tool between the modern block-based systems like Scratch and a more general purpose programming language. The system allows learners to program using a variety of syntax styles to best align with the target programming language in a curriculum. In particular, you can choose between Java/C#, Python, or Visual Basic style syntaxes all within the same tool. </p>
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="https://www.jeroo.org/images/ScreenCapture.gif" alt="" class="img-responsive"></p>
+<h2 id="resources-for-teachers-and-students">Resources for Teachers and Students</h2>
+<p>Our Introduction to Jeroo textbook provides an overview of how to program with Jeroo and gives more details about the system&#39;s backstory. Three different versions of the book are linked below, corresponding to the three language styles available. Pick the one that matches your target language. Note that the appendix materials showing screenshots of Jeroo are based on the stand-alone program, rather than the new web-based Jeroo--they&#39;re still a work in progress. </p>
+<ul>
+<li><a href="https://www.jeroo.org/docs/JerooDocJava.pdf">Java/C#/Javascript</a></li>
+<li><a href="https://www.jeroo.org/docs/JerooDocPython.pdf">Python Syntax</a></li>
+<li><a href="https://www.jeroo.org/docs/JerooDocVB.pdf">VB Syntax</a></li>
+</ul>
+<h2 id="the-team">The Team</h2>
+<ul>
+<li>Ben Konz</li>
+<li>Caelan Bryan</li>
+<li>Thomas Connole</li>
+<li>John Adam</li>
+<li>Brian Dorn</li>
+</ul>
+<p>The best way to contact us with questions, comments or feature requests, is to email <a href="mailto:support@jeroo.org">support@jeroo.org</a>.</p>
+<h2 id="building-from-source">Building from source</h2>
+<p>Build tools:</p>
+<ul>
+<li>yarn</li>
+<li>opam (m4 required by opam)</li>
+</ul>
+<h3 id="building-the-compiler">Building the compiler</h3>
+<p>Opam is experimental on Windows, so I would stick to
+MacOS or Linux to build the compiler. Once the JerooCompiler.bc.js 
+has been created, any platform can build the rest of the site.</p>
+<div><pre class="line-numbers"><code class="language-text">cd src/compiler
+opam switch create ./ ocaml-base-compiler.4.08.1
+opam install --deps-only .
+eval $(opam env)
+dune build ./JerooCompiler.bc.js --profile release
+dune runtest # optional, verify all compiler tests pass</code></pre></div><p>The compiler JavaScript is located in <code>jeroo/src/compiler/_build/default/JerooCompiler.bc.js</code></p>
+<h3 id="building-the-frontend">Building the frontend</h3>
+<div><pre class="line-numbers"><code class="language-text"># cd to project root
+yarn install
+yarn build --prod
+yarn test # optional, run unit tests
+yarn e2e # optional, run end-to-end tests (only works on Firefox)</code></pre></div><p>The newly built site is located in <code>jeroo/dist/jeroo</code></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'getting-started';
+            var COMPODOC_CURRENT_PAGE_URL = 'index.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="./js/libs/custom-elements.min.js"></script>
+       <script src="./js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="./js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="./js/menu-wc.js" defer></script>
+
+       <script src="./js/libs/bootstrap-native.js"></script>
+
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
+
+       <script src="./js/compodoc.js"></script>
+
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/clipboard.min.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+          <script src="./js/search/search.js"></script>
+          <script src="./js/search/lunr.min.js"></script>
+          <script src="./js/search/search-lunr.js"></script>
+          <script src="./js/search/search_index.js"></script>
+       <script src="./js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
